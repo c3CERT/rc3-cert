@@ -848,8 +848,27 @@
          "tilewidth":32
         }, 
         {
+         "columns":0,
          "firstgid":321,
-         "source":"cert_tiles.json"
+         "grid":
+            {
+             "height":1,
+             "orientation":"orthogonal",
+             "width":1
+            },
+         "margin":0,
+         "name":"cert_tiles",
+         "spacing":0,
+         "tilecount":1,
+         "tileheight":32,
+         "tiles":[
+                {
+                 "id":0,
+                 "image":"imgs\/nerdaufnahme.png",
+                 "imageheight":32,
+                 "imagewidth":128
+                }],
+         "tilewidth":128
         }],
  "tilewidth":32,
  "type":"map",
