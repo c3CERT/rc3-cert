@@ -177,7 +177,7 @@
                  "value":"MeetingRoom"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":21,
          "x":0,
          "y":0
