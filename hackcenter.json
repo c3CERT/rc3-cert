@@ -48,7 +48,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"map.json"
+                 "value":"map.json#loc_hackcenter"
                 }],
          "type":"tilelayer",
          "visible":true,
