@@ -190,10 +190,26 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">imgs/leipzig_messe/extras/tresen.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>8,24,16,48</rect>
+                <key>scale9Paddings</key>
+                <rect>8,24,16,48</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
         </map>
         <key>fileList</key>
         <array>
             <filename>imgs/leipzig_messe/extras/stone_tile_hatch.png</filename>
+            <filename>imgs/leipzig_messe/extras/tresen.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
