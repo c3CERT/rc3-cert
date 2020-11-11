@@ -26,7 +26,7 @@
             </struct>
         </array>
         <key>allowRotation</key>
-        <true/>
+        <false/>
         <key>shapeDebug</key>
         <false/>
         <key>dpi</key>
@@ -34,7 +34,7 @@
         <key>dataFormat</key>
         <string>spritesheet-only</string>
         <key>textureFileName</key>
-        <filename></filename>
+        <filename>cert_set.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -95,7 +95,7 @@
         <key>fixedTextureSize</key>
         <QSize>
             <key>width</key>
-            <int>-1</int>
+            <int>256</int>
             <key>height</key>
             <int>-1</int>
         </QSize>
@@ -117,7 +117,7 @@
             <key>basic</key>
             <struct type="AlgorithmBasicSettings">
                 <key>sortBy</key>
-                <enum type="AlgorithmBasicSettings::SortBy">Best</enum>
+                <enum type="AlgorithmBasicSettings::SortBy">Name</enum>
                 <key>order</key>
                 <enum type="AlgorithmBasicSettings::Order">Ascending</enum>
             </struct>
@@ -205,8 +205,42 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">imgs/cert/Liege2.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>16,8,32,16</rect>
+                <key>scale9Paddings</key>
+                <rect>16,8,32,16</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">imgs/cert/draeger_gamma.png</key>
+            <key type="filename">imgs/cert/liegefrontal.png</key>
+            <key type="filename">imgs/cert/x_sonogr.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>8,16,16,32</rect>
+                <key>scale9Paddings</key>
+                <rect>8,16,16,32</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">imgs/cert/iv-bag.png</key>
             <key type="filename">imgs/cert/iv-stand.png</key>
+            <key type="filename">imgs/cert/sono.png</key>
+            <key type="filename">imgs/cert/x_hockerkl.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -221,7 +255,12 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">imgs/cert/liege2.png</key>
             <key type="filename">imgs/cert/liege_1.png</key>
+            <key type="filename">imgs/cert/wagen.png</key>
+            <key type="filename">imgs/cert/wagensono.png</key>
+            <key type="filename">imgs/cert/wagenvoll.png</key>
+            <key type="filename">imgs/cert/x_blood1.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -233,6 +272,21 @@
                 <rect>16,16,32,32</rect>
                 <key>scale9Paddings</key>
                 <rect>16,16,32,32</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">imgs/cert/white_cert_banner1.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>16,10,32,19</rect>
+                <key>scale9Paddings</key>
+                <rect>16,10,32,19</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
