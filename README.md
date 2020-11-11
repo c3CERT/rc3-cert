@@ -1,5 +1,5 @@
 # Das virtuelle Cert für den rc3.
-This is a starter kit to help you build your own map for [WorkAdventure](https://workadventu.re).
+~This is a starter kit to help you build your own map for [WorkAdventure](https://workadventu.re).~
 
 ## Tools used
 
