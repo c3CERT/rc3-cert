@@ -178,7 +178,10 @@
             <key type="filename">imgs/misc/beamer_32x32.png</key>
             <key type="filename">imgs/misc/latop_sticker_32x32t.png</key>
             <key type="filename">imgs/misc/mate3.png</key>
-            <key type="filename">imgs/misc/sitzsack_gelb_32x32.png</key>
+            <key type="filename">imgs/misc/sitzsack.png</key>
+            <key type="filename">imgs/misc/waffeleisen_32x32.png</key>
+            <key type="filename">imgs/misc/x_beamer_lightcone.png</key>
+            <key type="filename">imgs/misc/x_verdunklung.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
