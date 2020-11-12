@@ -182,6 +182,8 @@
             <key type="filename">imgs/misc/waffeleisen_32x32.png</key>
             <key type="filename">imgs/misc/x_beamer_lightcone.png</key>
             <key type="filename">imgs/misc/x_verdunklung.png</key>
+            <key type="filename">imgs/misc/y_rupert_klein.png</key>
+            <key type="filename">imgs/misc/y_rupert_schwimmt_klein.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -208,6 +210,22 @@
                 <rect>8,24,16,48</rect>
                 <key>scale9Paddings</key>
                 <rect>8,24,16,48</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">imgs/misc/z_mate_bottles.png</key>
+            <key type="filename">imgs/misc/z_mate_bottles_full.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>16,16,32,32</rect>
+                <key>scale9Paddings</key>
+                <rect>16,16,32,32</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
