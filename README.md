@@ -13,7 +13,7 @@
 - basement.json Der Keller, für all das Zeug was blubbel uns normalerweise verbietet.
 
 ## Bugs
-- Raumwechsel funktionieren nicht mit den vorgesehenen entryPoints.
+- Raumwechsel funktionieren nicht mit den vorgesehenen ~entryPoints~ funktionieren nicht bei der Verwendung von exitUrl. exitSceneUrl ist deprecated, aber funktioniert problemlos.
 
 ## Assets
 - Tilesize: 32x32px, .png
