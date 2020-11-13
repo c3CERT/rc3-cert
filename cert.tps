@@ -241,6 +241,7 @@
             <key type="filename">imgs/cert/iv-stand.png</key>
             <key type="filename">imgs/cert/sono.png</key>
             <key type="filename">imgs/cert/x_hockerkl.png</key>
+            <key type="filename">imgs/cert/y_notfallrucksack.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -302,6 +303,36 @@
                 <rect>48,48,96,96</rect>
                 <key>scale9Paddings</key>
                 <rect>48,48,96,96</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">imgs/cert/z_anatomieposter_kl.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>8,10,15,21</rect>
+                <key>scale9Paddings</key>
+                <rect>8,10,15,21</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">imgs/cert/z_anatomieposter_m.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>10,14,20,27</rect>
+                <key>scale9Paddings</key>
+                <rect>10,14,20,27</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
