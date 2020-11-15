@@ -28,7 +28,7 @@ for x in range(0,ROOMS):
                 room['layers'][layer_i]['properties'][0]['value'] = str(randint(0,ROOMS)) + '.json'
         # add decoration
         inv = choice(inv_layers)
-        room['layers'].append(inv)
+        room['layers'][1]=inv
 
     with open(output, 'w') as file:
         json.dump(room, file)
