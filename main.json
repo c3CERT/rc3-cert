@@ -85,7 +85,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"basement.json"
+                 "value":"basement.json#start"
                 }],
          "type":"tilelayer",
          "visible":true,
