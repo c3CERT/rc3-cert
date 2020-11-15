@@ -6,17 +6,29 @@ ROOMS = 200
 OUT_DIR = "cube/"
 TEMPLATES = ["cube_assets/quadrat_t1.json","cube_assets/quadrat_t2.json","cube_assets/quadrat_t3.json"]
 
+with open("cube_assets/quadrat_inventory.json") as inv_File:
+    inventory = json.load(inv_File)
+    inv_layers = []
+    for layer in inventory['layers']:
+        if layer['name'].startswith('inv'):
+            inv_layers.append(layer)
+
 for x in range(0,ROOMS):
     template = choice(TEMPLATES)
     output = OUT_DIR + str(x) + ".json"
     copyfile(template, output)
 
     #tile post processing
+
+
     with open(output, 'r') as file:
         room = json.load(file)
         for layer_i in range(0, len(room['layers'])):
             if room['layers'][layer_i]['name'].startswith('exit'):
                 room['layers'][layer_i]['properties'][0]['value'] = str(randint(0,ROOMS)) + '.json'
+        # add decoration
+        inv = choice(inv_layers)
+        room['layers'].append(inv)
 
     with open(output, 'w') as file:
         json.dump(room, file)
