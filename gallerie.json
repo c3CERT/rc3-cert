@@ -1,4 +1,11 @@
 { "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "target":"."
+        }
+    },
  "height":64,
  "infinite":false,
  "layers":[
@@ -68,6 +75,12 @@
          "id":6,
          "name":"exitMaze",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"exitSceneUrl",
+                 "type":"string",
+                 "value":"cube\/0.json"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":64,
