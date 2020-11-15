@@ -29,7 +29,7 @@ with open(OUT_DIR+str(exit)+".json", 'r') as file:
     room = json.load(file)
 for layer_i in range(0, len(room['layers'])):
     if room['layers'][layer_i]['name'] == 'exit' + str(exit_door):
-        room['layers'][layer_i]['properties'][0]['value'] = 'main.json'
+        room['layers'][layer_i]['properties'][0]['value'] = '../main.json'
 
 with open(OUT_DIR+str(exit)+".json", 'w') as file:
     json.dump(room, file)
