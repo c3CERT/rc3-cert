@@ -4,7 +4,7 @@ from random import randint, choice
 import json
 ROOMS = 200
 OUT_DIR = "cube/"
-TEMPLATES = ["cube_assets/quadrat_t1.json","cube_assets/quadrat_t2.json","cube_assets/quadrat_t3.json"]
+TEMPLATES = ["cube_assets/quadrat_t1.json","cube_assets/quadrat_t2.json","cube_assets/quadrat_t3.json","cube_assets/quadrat_t4.json"]
 
 with open("cube_assets/quadrat_inventory.json") as inv_File:
     inventory = json.load(inv_File)
