@@ -147,7 +147,7 @@
                  "value":"apron.json"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":40,
          "x":0,
          "y":0
@@ -165,12 +165,23 @@
                  "value":"..\/hackcenter.json"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":40,
          "x":0,
          "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":35,
+         "name":"floorLayer",
+         "objects":[],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
         }],
- "nextlayerid":35,
+ "nextlayerid":37,
  "nextobjectid":3,
  "orientation":"orthogonal",
  "renderorder":"right-down",
