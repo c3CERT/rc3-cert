@@ -173,7 +173,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"..\/hackcenter.json"
+                 "value":"basement.json#startTerminal"
                 }],
          "type":"tilelayer",
          "visible":true,
