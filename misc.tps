@@ -184,6 +184,13 @@
             <key type="filename">imgs/misc/x_verdunklung.png</key>
             <key type="filename">imgs/misc/y_rupert_klein.png</key>
             <key type="filename">imgs/misc/y_rupert_schwimmt_klein.png</key>
+            <key type="filename">imgs/misc/z_winkekatze.png</key>
+            <key type="filename">imgs/misc/zz_gigaset_dect.png</key>
+            <key type="filename">imgs/misc/zz_gigaset_dect_base.png</key>
+            <key type="filename">imgs/misc/zz_rucksack2_freigestellt_kl.png</key>
+            <key type="filename">imgs/misc/zz_rucksack_freigestellt_kl.png</key>
+            <key type="filename">imgs/misc/zzz_flauschehorn.png</key>
+            <key type="filename">imgs/misc/zzzz_donotenter.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -199,6 +206,8 @@
                 <false/>
             </struct>
             <key type="filename">imgs/misc/canvas.png</key>
+            <key type="filename">imgs/misc/zzz_mate_crates_1.png</key>
+            <key type="filename">imgs/misc/zzz_mate_crates_2.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -215,6 +224,7 @@
             </struct>
             <key type="filename">imgs/misc/z_mate_bottles.png</key>
             <key type="filename">imgs/misc/z_mate_bottles_full.png</key>
+            <key type="filename">imgs/misc/zz_lab_table.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>

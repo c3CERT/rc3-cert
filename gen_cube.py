@@ -25,7 +25,7 @@ for x in range(0,ROOMS):
         room = json.load(file)
         for layer_i in range(0, len(room['layers'])):
             if room['layers'][layer_i]['name'].startswith('exit'):
-                room['layers'][layer_i]['properties'][0]['value'] = str(randint(0,ROOMS)) + '.json'
+                room['layers'][layer_i]['properties'][0]['value'] = str(randint(0,ROOMS-1)) + '.json'
         # add decoration
         inv = choice(inv_layers)
         room['layers'][1]=inv
