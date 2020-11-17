@@ -246,7 +246,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"https:\/\/play.wa-test.rc3.cccv.de\/_\/global\/cbluoss.github.io\/rc3-cert\/basement.json#startTerminal"
+                 "value":"..\/basement.json#startTerminal"
                 }],
          "type":"tilelayer",
          "visible":true,
