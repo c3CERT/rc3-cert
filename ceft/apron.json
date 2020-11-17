@@ -1056,8 +1056,17 @@
          "tilewidth":32
         }, 
         {
+         "columns":4,
          "firstgid":837,
-         "source":"airport_set.tsx"
+         "image":"..\/airport_set.png",
+         "imageheight":96,
+         "imagewidth":128,
+         "margin":0,
+         "name":"airport_set",
+         "spacing":0,
+         "tilecount":12,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
