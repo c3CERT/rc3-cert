@@ -34,16 +34,6 @@ for x in range(0,ROOMS):
         json.dump(room, file)
 
 ## generate an exit
-exit = randint(0,200)
-exit_door = randint(1,4)
-
-with open(OUT_DIR+str(exit)+".json", 'r') as file:
-    room = json.load(file)
-for layer_i in range(0, len(room['layers'])):
-    if room['layers'][layer_i]['name'] == 'exit' + str(exit_door):
-        room['layers'][layer_i]['properties'][0]['value'] = '../main.json'
-
-with open(OUT_DIR+str(exit)+".json", 'w') as file:
-    json.dump(room, file)
-
-print("Exitroom:", exit, "Exitlayer", exit_door)
+exit = str(randint(0,200))+'.json'
+copyfile('cube_assets/outcube.json', OUT_DIR + exit)
+print("Exitroom:", exit)
