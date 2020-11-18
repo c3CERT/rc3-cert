@@ -258,7 +258,7 @@
         {
          "columns":8,
          "firstgid":1,
-         "image":"imgs/tilesheets/floortileset.png",
+         "image":"imgs\/tilesheets\/floortileset.png",
          "imageheight":256,
          "imagewidth":256,
          "margin":0,
@@ -416,7 +416,7 @@
         {
          "columns":8,
          "firstgid":65,
-         "image":"imgs/tilesheets/dungeon.png",
+         "image":"imgs\/tilesheets\/dungeon.png",
          "imageheight":256,
          "imagewidth":256,
          "margin":0,
@@ -572,185 +572,13 @@
          "tilewidth":32
         }, 
         {
-         "columns":8,
          "firstgid":129,
-         "image":"imgs/tilesheets/cert_set.png",
-         "imageheight":576,
-         "imagewidth":256,
-         "margin":0,
-         "name":"cert_set",
-         "spacing":0,
-         "tilecount":144,
-         "tileheight":32,
-         "tiles":[
-                {
-                 "id":88,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":89,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":90,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":false
-                        }]
-                }, 
-                {
-                 "id":91,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":false
-                        }]
-                }, 
-                {
-                 "id":92,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":93,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":96,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":97,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":98,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":99,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":100,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":101,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":104,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":105,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":106,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":107,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":108,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":109,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }],
-         "tilewidth":32
+         "source":"imgs\/cert_set.tsx"
         }, 
         {
          "columns":16,
          "firstgid":273,
-         "image":"imgs/tilesheets/tilesets_deviant_milkian_1.png",
+         "image":"imgs\/tilesheets\/tilesets_deviant_milkian_1.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -782,7 +610,7 @@
         {
          "columns":16,
          "firstgid":529,
-         "image":"imgs/tilesheets/AceSet-Hospital.png",
+         "image":"imgs\/tilesheets\/AceSet-Hospital.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -967,7 +795,7 @@
         {
          "columns":2,
          "firstgid":785,
-         "image":"imgs/tilesheets/misc_set.png",
+         "image":"imgs\/tilesheets\/misc_set.png",
          "imageheight":704,
          "imagewidth":64,
          "margin":0,
