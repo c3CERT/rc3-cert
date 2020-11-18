@@ -34,7 +34,7 @@
         <key>dataFormat</key>
         <string>spritesheet-only</string>
         <key>textureFileName</key>
-        <filename></filename>
+        <filename>rc3_style_set.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -88,14 +88,14 @@
         <key>maxTextureSize</key>
         <QSize>
             <key>width</key>
-            <int>64</int>
+            <int>2048</int>
             <key>height</key>
             <int>2048</int>
         </QSize>
         <key>fixedTextureSize</key>
         <QSize>
             <key>width</key>
-            <int>128</int>
+            <int>-1</int>
             <key>height</key>
             <int>-1</int>
         </QSize>
@@ -117,7 +117,7 @@
             <key>basic</key>
             <struct type="AlgorithmBasicSettings">
                 <key>sortBy</key>
-                <enum type="AlgorithmBasicSettings::SortBy">Name</enum>
+                <enum type="AlgorithmBasicSettings::SortBy">Best</enum>
                 <key>order</key>
                 <enum type="AlgorithmBasicSettings::Order">Ascending</enum>
             </struct>
@@ -175,15 +175,10 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">imgs/airport/01.png</key>
-            <key type="filename">imgs/airport/02.png</key>
-            <key type="filename">imgs/airport/03.png</key>
-            <key type="filename">imgs/airport/04.png</key>
-            <key type="filename">imgs/airport/05.png</key>
-            <key type="filename">imgs/airport/06.png</key>
-            <key type="filename">imgs/airport/07.png</key>
-            <key type="filename">imgs/airport/08.png</key>
-            <key type="filename">imgs/airport/09.png</key>
+            <key type="filename">../rc3/rc3_Logo1.png</key>
+            <key type="filename">../rc3/rc3_Logo2.png</key>
+            <key type="filename">../rc3/rc3_Logo3.png</key>
+            <key type="filename">../rc3/rc3_Logo_cert.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -192,13 +187,13 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>8,8,16,16</rect>
+                <rect>8,24,16,48</rect>
                 <key>scale9Paddings</key>
-                <rect>8,8,16,16</rect>
+                <rect>8,24,16,48</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">imgs/airport/crew_only_sign.png</key>
+            <key type="filename">../rc3/rc3_Logo_template.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -207,16 +202,16 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>16,8,32,16</rect>
+                <rect>8,8,16,16</rect>
                 <key>scale9Paddings</key>
-                <rect>16,8,32,16</rect>
+                <rect>8,8,16,16</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
         </map>
         <key>fileList</key>
         <array>
-            <filename>imgs/airport</filename>
+            <filename>../rc3</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
