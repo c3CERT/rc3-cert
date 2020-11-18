@@ -34,7 +34,7 @@
         <key>dataFormat</key>
         <string>spritesheet-only</string>
         <key>textureFileName</key>
-        <filename>rc3_style_set.png</filename>
+        <filename>leipzig_fair_set.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -95,9 +95,9 @@
         <key>fixedTextureSize</key>
         <QSize>
             <key>width</key>
-            <int>-1</int>
+            <int>256</int>
             <key>height</key>
-            <int>-1</int>
+            <int>128</int>
         </QSize>
         <key>algorithmSettings</key>
         <struct type="AlgorithmSettings">
@@ -175,10 +175,29 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">imgs/rc3/rc3_Logo1.png</key>
-            <key type="filename">imgs/rc3/rc3_Logo2.png</key>
-            <key type="filename">imgs/rc3/rc3_Logo3.png</key>
-            <key type="filename">imgs/rc3/rc3_Logo_cert.png</key>
+            <key type="filename">../leipzig_messe/stone_tile1.png</key>
+            <key type="filename">../leipzig_messe/stone_tile2.png</key>
+            <key type="filename">../leipzig_messe/window_wall_2.png</key>
+            <key type="filename">../leipzig_messe/wood_floor2.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>8,8,16,16</rect>
+                <key>scale9Paddings</key>
+                <rect>8,8,16,16</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../leipzig_messe/window_door1.png</key>
+            <key type="filename">../leipzig_messe/window_wall1.png</key>
+            <key type="filename">../leipzig_messe/window_wall_1_blinds.png</key>
+            <key type="filename">../leipzig_messe/window_wall_1_frame.png</key>
+            <key type="filename">../leipzig_messe/window_wall_1_window.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -193,7 +212,7 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">imgs/rc3/rc3_Logo_template.png</key>
+            <key type="filename">../leipzig_messe/window_door2.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -202,16 +221,16 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>8,8,16,16</rect>
+                <rect>16,8,32,16</rect>
                 <key>scale9Paddings</key>
-                <rect>8,8,16,16</rect>
+                <rect>16,8,32,16</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
         </map>
         <key>fileList</key>
         <array>
-            <filename>imgs/rc3</filename>
+            <filename>../leipzig_messe</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

@@ -3,6 +3,10 @@
 * Take a look on https://howto.rc3.world/maps.html
 * Read the README as well.
 
+## Install pre-push hook for image checks.
+* pip3 install -p requirements.txt
+* ln scripts/check_imgs.py .git/hooks/pre-push
+
 ## What to contribute
 ### Sprites
 * Only commit sprites you created yourself.

@@ -34,7 +34,7 @@
         <key>dataFormat</key>
         <string>spritesheet-only</string>
         <key>textureFileName</key>
-        <filename>misc_set.png</filename>
+        <filename>leipzig_fair_extras_set.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -117,7 +117,7 @@
             <key>basic</key>
             <struct type="AlgorithmBasicSettings">
                 <key>sortBy</key>
-                <enum type="AlgorithmBasicSettings::SortBy">Name</enum>
+                <enum type="AlgorithmBasicSettings::SortBy">Best</enum>
                 <key>order</key>
                 <enum type="AlgorithmBasicSettings::Order">Ascending</enum>
             </struct>
@@ -175,56 +175,7 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">imgs/misc/beamer_32x32.png</key>
-            <key type="filename">imgs/misc/latop_sticker_32x32t.png</key>
-            <key type="filename">imgs/misc/mate3.png</key>
-            <key type="filename">imgs/misc/sitzsack.png</key>
-            <key type="filename">imgs/misc/waffeleisen_32x32.png</key>
-            <key type="filename">imgs/misc/x_beamer_lightcone.png</key>
-            <key type="filename">imgs/misc/x_verdunklung.png</key>
-            <key type="filename">imgs/misc/y_rupert_klein.png</key>
-            <key type="filename">imgs/misc/y_rupert_schwimmt_klein.png</key>
-            <key type="filename">imgs/misc/z_winkekatze.png</key>
-            <key type="filename">imgs/misc/zz_gigaset_dect.png</key>
-            <key type="filename">imgs/misc/zz_gigaset_dect_base.png</key>
-            <key type="filename">imgs/misc/zz_rucksack2_freigestellt_kl.png</key>
-            <key type="filename">imgs/misc/zz_rucksack_freigestellt_kl.png</key>
-            <key type="filename">imgs/misc/zzz_flauschehorn.png</key>
-            <key type="filename">imgs/misc/zzzz_donotenter.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>8,8,16,16</rect>
-                <key>scale9Paddings</key>
-                <rect>8,8,16,16</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">imgs/misc/canvas.png</key>
-            <key type="filename">imgs/misc/zzz_mate_crates_1.png</key>
-            <key type="filename">imgs/misc/zzz_mate_crates_2.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>8,24,16,48</rect>
-                <key>scale9Paddings</key>
-                <rect>8,24,16,48</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">imgs/misc/z_mate_bottles.png</key>
-            <key type="filename">imgs/misc/z_mate_bottles_full.png</key>
-            <key type="filename">imgs/misc/zz_lab_table.png</key>
+            <key type="filename">../leipzig_messe/extras/stone_tile_hatch.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -236,13 +187,29 @@
                 <rect>16,16,32,32</rect>
                 <key>scale9Paddings</key>
                 <rect>16,16,32,32</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../leipzig_messe/extras/tresen.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>8,24,16,48</rect>
+                <key>scale9Paddings</key>
+                <rect>8,24,16,48</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
         </map>
         <key>fileList</key>
         <array>
-            <filename>imgs/misc</filename>
+            <filename>../leipzig_messe/extras/stone_tile_hatch.png</filename>
+            <filename>../leipzig_messe/extras/tresen.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

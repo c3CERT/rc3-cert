@@ -258,7 +258,7 @@
         {
          "columns":8,
          "firstgid":1,
-         "image":"floortileset.png",
+         "image":"imgs/tilesheets/floortileset.png",
          "imageheight":256,
          "imagewidth":256,
          "margin":0,
@@ -416,7 +416,7 @@
         {
          "columns":8,
          "firstgid":65,
-         "image":"dungeon.png",
+         "image":"imgs/tilesheets/dungeon.png",
          "imageheight":256,
          "imagewidth":256,
          "margin":0,
@@ -574,7 +574,7 @@
         {
          "columns":8,
          "firstgid":129,
-         "image":"cert_set.png",
+         "image":"imgs/tilesheets/cert_set.png",
          "imageheight":576,
          "imagewidth":256,
          "margin":0,
@@ -750,7 +750,7 @@
         {
          "columns":16,
          "firstgid":273,
-         "image":"tilesets_deviant_milkian_1.png",
+         "image":"imgs/tilesheets/tilesets_deviant_milkian_1.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -782,7 +782,7 @@
         {
          "columns":16,
          "firstgid":529,
-         "image":"AceSet-Hospital.png",
+         "image":"imgs/tilesheets/AceSet-Hospital.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -967,7 +967,7 @@
         {
          "columns":2,
          "firstgid":785,
-         "image":"misc_set.png",
+         "image":"imgs/tilesheets/misc_set.png",
          "imageheight":704,
          "imagewidth":64,
          "margin":0,
