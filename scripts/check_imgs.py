@@ -3,6 +3,8 @@ from PIL import Image
 import sys
 import os
 
+print("Check images dimensions")
+print('Absolute path:', os.getcwd() + '/imgs')
 for root, dirs, files in os.walk('imgs'):
     for file in files:
      if file.endswith('.png'):
