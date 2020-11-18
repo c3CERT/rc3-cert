@@ -242,6 +242,7 @@
             <key type="filename">../cert/sono.png</key>
             <key type="filename">../cert/x_hockerkl.png</key>
             <key type="filename">../cert/y_notfallrucksack.png</key>
+            <key type="filename">../cert/yy_technicalrucksack.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
