@@ -15,7 +15,7 @@
  "tiles":[
         {
          "id":2,
-         "image":"nerdaufnahme.png",
+         "image":"imgs/tilesheets/nerdaufnahme.png",
          "imageheight":32,
          "imagewidth":128
         }],

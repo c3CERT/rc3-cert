@@ -150,7 +150,7 @@
         {
          "columns":16,
          "firstgid":1,
-         "image":"..\/tilesets_deviant_milkian_1.png",
+         "image":"..\/imgs/tilesheets/tilesets_deviant_milkian_1.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -893,7 +893,7 @@
         {
          "columns":8,
          "firstgid":257,
-         "image":"..\/floortileset.png",
+         "image":"..\/imgs/tilesheets/floortileset.png",
          "imageheight":256,
          "imagewidth":256,
          "margin":0,
@@ -916,7 +916,7 @@
         {
          "columns":8,
          "firstgid":321,
-         "image":"..\/leipzig_fair_set.png",
+         "image":"..\/imgs/tilesheets/leipzig_fair_set.png",
          "imageheight":128,
          "imagewidth":256,
          "margin":0,
@@ -993,7 +993,7 @@
         {
          "columns":2,
          "firstgid":353,
-         "image":"..\/misc_set.png",
+         "image":"..\/imgs/tilesheets/misc_set.png",
          "imageheight":704,
          "imagewidth":64,
          "margin":0,
@@ -1016,7 +1016,7 @@
         {
          "columns":4,
          "firstgid":397,
-         "image":"..\/rc3_style_set.png",
+         "image":"..\/imgs/tilesheets/rc3_style_set.png",
          "imageheight":224,
          "imagewidth":128,
          "margin":0,
@@ -1029,7 +1029,7 @@
         {
          "columns":4,
          "firstgid":425,
-         "image":"..\/airport_set.png",
+         "image":"..\/imgs/tilesheets/airport_set.png",
          "imageheight":96,
          "imagewidth":128,
          "margin":0,
