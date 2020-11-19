@@ -97,7 +97,7 @@
             <key>width</key>
             <int>256</int>
             <key>height</key>
-            <int>128</int>
+            <int>256</int>
         </QSize>
         <key>algorithmSettings</key>
         <struct type="AlgorithmSettings">
@@ -117,7 +117,7 @@
             <key>basic</key>
             <struct type="AlgorithmBasicSettings">
                 <key>sortBy</key>
-                <enum type="AlgorithmBasicSettings::SortBy">Best</enum>
+                <enum type="AlgorithmBasicSettings::SortBy">Name</enum>
                 <key>order</key>
                 <enum type="AlgorithmBasicSettings::Order">Ascending</enum>
             </struct>
@@ -175,10 +175,10 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">../leipzig_messe/stone_tile1.png</key>
-            <key type="filename">../leipzig_messe/stone_tile2.png</key>
-            <key type="filename">../leipzig_messe/window_wall_2.png</key>
-            <key type="filename">../leipzig_messe/wood_floor2.png</key>
+            <key type="filename">../leipzig_messe/01_stone_tile1.png</key>
+            <key type="filename">../leipzig_messe/02_stone_tile2.png</key>
+            <key type="filename">../leipzig_messe/09_window_wall_2.png</key>
+            <key type="filename">../leipzig_messe/10_wood_floor2.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -193,11 +193,11 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">../leipzig_messe/window_door1.png</key>
-            <key type="filename">../leipzig_messe/window_wall1.png</key>
-            <key type="filename">../leipzig_messe/window_wall_1_blinds.png</key>
-            <key type="filename">../leipzig_messe/window_wall_1_frame.png</key>
-            <key type="filename">../leipzig_messe/window_wall_1_window.png</key>
+            <key type="filename">../leipzig_messe/03_window_door1.png</key>
+            <key type="filename">../leipzig_messe/05_window_wall1.png</key>
+            <key type="filename">../leipzig_messe/06_window_wall_1_blinds.png</key>
+            <key type="filename">../leipzig_messe/07_window_wall_1_frame.png</key>
+            <key type="filename">../leipzig_messe/08_window_wall_1_window.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -212,7 +212,7 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">../leipzig_messe/window_door2.png</key>
+            <key type="filename">../leipzig_messe/11_window_door2.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -224,13 +224,38 @@
                 <rect>16,8,32,16</rect>
                 <key>scale9Paddings</key>
                 <rect>16,8,32,16</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../leipzig_messe/12_window_wall_1_window2.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>16,24,32,48</rect>
+                <key>scale9Paddings</key>
+                <rect>16,24,32,48</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
         </map>
         <key>fileList</key>
         <array>
-            <filename>../leipzig_messe</filename>
+            <filename>../leipzig_messe/01_stone_tile1.png</filename>
+            <filename>../leipzig_messe/02_stone_tile2.png</filename>
+            <filename>../leipzig_messe/03_window_door1.png</filename>
+            <filename>../leipzig_messe/10_wood_floor2.png</filename>
+            <filename>../leipzig_messe/11_window_door2.png</filename>
+            <filename>../leipzig_messe/12_window_wall_1_window2.png</filename>
+            <filename>../leipzig_messe/05_window_wall1.png</filename>
+            <filename>../leipzig_messe/06_window_wall_1_blinds.png</filename>
+            <filename>../leipzig_messe/07_window_wall_1_frame.png</filename>
+            <filename>../leipzig_messe/08_window_wall_1_window.png</filename>
+            <filename>../leipzig_messe/09_window_wall_2.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
