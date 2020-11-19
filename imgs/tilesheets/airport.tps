@@ -34,7 +34,7 @@
         <key>dataFormat</key>
         <string>spritesheet-only</string>
         <key>textureFileName</key>
-        <filename>leipzig_fair_set.png</filename>
+        <filename></filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -88,16 +88,16 @@
         <key>maxTextureSize</key>
         <QSize>
             <key>width</key>
-            <int>2048</int>
+            <int>64</int>
             <key>height</key>
             <int>2048</int>
         </QSize>
         <key>fixedTextureSize</key>
         <QSize>
             <key>width</key>
-            <int>256</int>
-            <key>height</key>
             <int>128</int>
+            <key>height</key>
+            <int>-1</int>
         </QSize>
         <key>algorithmSettings</key>
         <struct type="AlgorithmSettings">
@@ -117,7 +117,7 @@
             <key>basic</key>
             <struct type="AlgorithmBasicSettings">
                 <key>sortBy</key>
-                <enum type="AlgorithmBasicSettings::SortBy">Best</enum>
+                <enum type="AlgorithmBasicSettings::SortBy">Name</enum>
                 <key>order</key>
                 <enum type="AlgorithmBasicSettings::Order">Ascending</enum>
             </struct>
@@ -175,10 +175,15 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">imgs/leipzig_messe/stone_tile1.png</key>
-            <key type="filename">imgs/leipzig_messe/stone_tile2.png</key>
-            <key type="filename">imgs/leipzig_messe/window_wall_2.png</key>
-            <key type="filename">imgs/leipzig_messe/wood_floor2.png</key>
+            <key type="filename">../airport/01.png</key>
+            <key type="filename">../airport/02.png</key>
+            <key type="filename">../airport/03.png</key>
+            <key type="filename">../airport/04.png</key>
+            <key type="filename">../airport/05.png</key>
+            <key type="filename">../airport/06.png</key>
+            <key type="filename">../airport/07.png</key>
+            <key type="filename">../airport/08.png</key>
+            <key type="filename">../airport/09.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -193,26 +198,7 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">imgs/leipzig_messe/window_door1.png</key>
-            <key type="filename">imgs/leipzig_messe/window_wall1.png</key>
-            <key type="filename">imgs/leipzig_messe/window_wall_1_blinds.png</key>
-            <key type="filename">imgs/leipzig_messe/window_wall_1_frame.png</key>
-            <key type="filename">imgs/leipzig_messe/window_wall_1_window.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>8,24,16,48</rect>
-                <key>scale9Paddings</key>
-                <rect>8,24,16,48</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">imgs/leipzig_messe/window_door2.png</key>
+            <key type="filename">../airport/crew_only_sign.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -230,7 +216,7 @@
         </map>
         <key>fileList</key>
         <array>
-            <filename>imgs/leipzig_messe</filename>
+            <filename>../airport</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

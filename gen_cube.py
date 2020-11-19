@@ -1,4 +1,7 @@
-# Brace yourself, the cube is coming!
+#!/usr/bin/env python3
+#
+#Brace yourself, the cube is coming!
+
 from shutil import copyfile
 from random import randint, choice
 import json

@@ -26,7 +26,7 @@
             </struct>
         </array>
         <key>allowRotation</key>
-        <false/>
+        <true/>
         <key>shapeDebug</key>
         <false/>
         <key>dpi</key>
@@ -34,7 +34,7 @@
         <key>dataFormat</key>
         <string>spritesheet-only</string>
         <key>textureFileName</key>
-        <filename>cert_set.png</filename>
+        <filename>misc_set.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -95,7 +95,7 @@
         <key>fixedTextureSize</key>
         <QSize>
             <key>width</key>
-            <int>256</int>
+            <int>-1</int>
             <key>height</key>
             <int>-1</int>
         </QSize>
@@ -175,73 +175,22 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">imgs/cert/4x1-nerdaufnahme.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>32,8,64,16</rect>
-                <key>scale9Paddings</key>
-                <rect>32,8,64,16</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">imgs/cert/CT_1.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>24,24,48,48</rect>
-                <key>scale9Paddings</key>
-                <rect>24,24,48,48</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">imgs/cert/Liege2.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>16,8,32,16</rect>
-                <key>scale9Paddings</key>
-                <rect>16,8,32,16</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">imgs/cert/draeger_gamma.png</key>
-            <key type="filename">imgs/cert/liegefrontal.png</key>
-            <key type="filename">imgs/cert/x_sonogr.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>8,16,16,32</rect>
-                <key>scale9Paddings</key>
-                <rect>8,16,16,32</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">imgs/cert/iv-bag.png</key>
-            <key type="filename">imgs/cert/iv-stand.png</key>
-            <key type="filename">imgs/cert/sono.png</key>
-            <key type="filename">imgs/cert/x_hockerkl.png</key>
-            <key type="filename">imgs/cert/y_notfallrucksack.png</key>
+            <key type="filename">../misc/beamer_32x32.png</key>
+            <key type="filename">../misc/latop_sticker_32x32t.png</key>
+            <key type="filename">../misc/mate3.png</key>
+            <key type="filename">../misc/sitzsack.png</key>
+            <key type="filename">../misc/waffeleisen_32x32.png</key>
+            <key type="filename">../misc/x_beamer_lightcone.png</key>
+            <key type="filename">../misc/x_verdunklung.png</key>
+            <key type="filename">../misc/y_rupert_klein.png</key>
+            <key type="filename">../misc/y_rupert_schwimmt_klein.png</key>
+            <key type="filename">../misc/z_winkekatze.png</key>
+            <key type="filename">../misc/zz_gigaset_dect.png</key>
+            <key type="filename">../misc/zz_gigaset_dect_base.png</key>
+            <key type="filename">../misc/zz_rucksack2_freigestellt_kl.png</key>
+            <key type="filename">../misc/zz_rucksack_freigestellt_kl.png</key>
+            <key type="filename">../misc/zzz_flauschehorn.png</key>
+            <key type="filename">../misc/zzzz_donotenter.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -256,12 +205,26 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">imgs/cert/liege2.png</key>
-            <key type="filename">imgs/cert/liege_1.png</key>
-            <key type="filename">imgs/cert/wagen.png</key>
-            <key type="filename">imgs/cert/wagensono.png</key>
-            <key type="filename">imgs/cert/wagenvoll.png</key>
-            <key type="filename">imgs/cert/x_blood1.png</key>
+            <key type="filename">../misc/canvas.png</key>
+            <key type="filename">../misc/zzz_mate_crates_1.png</key>
+            <key type="filename">../misc/zzz_mate_crates_2.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>8,24,16,48</rect>
+                <key>scale9Paddings</key>
+                <rect>8,24,16,48</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../misc/z_mate_bottles.png</key>
+            <key type="filename">../misc/z_mate_bottles_full.png</key>
+            <key type="filename">../misc/zz_lab_table.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -273,88 +236,13 @@
                 <rect>16,16,32,32</rect>
                 <key>scale9Paddings</key>
                 <rect>16,16,32,32</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">imgs/cert/white_cert_banner1.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>16,10,32,19</rect>
-                <key>scale9Paddings</key>
-                <rect>16,10,32,19</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">imgs/cert/y_CT_2.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>48,48,96,96</rect>
-                <key>scale9Paddings</key>
-                <rect>48,48,96,96</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">imgs/cert/z_anatomieposter_kl.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>8,10,15,21</rect>
-                <key>scale9Paddings</key>
-                <rect>8,10,15,21</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">imgs/cert/z_anatomieposter_m.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>10,14,20,27</rect>
-                <key>scale9Paddings</key>
-                <rect>10,14,20,27</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">imgs/cert/zz_c-bogen.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>16,24,32,48</rect>
-                <key>scale9Paddings</key>
-                <rect>16,24,32,48</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
         </map>
         <key>fileList</key>
         <array>
-            <filename>imgs/cert</filename>
+            <filename>../misc</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

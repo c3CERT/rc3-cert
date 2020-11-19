@@ -108,7 +108,7 @@
         {
          "columns":16,
          "firstgid":1,
-         "image":"..\/tilesets_deviant_milkian_1.png",
+         "image":"..\/imgs/tilesheets/tilesets_deviant_milkian_1.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -851,7 +851,7 @@
         {
          "columns":8,
          "firstgid":257,
-         "image":"..\/floortileset.png",
+         "image":"..\/imgs/tilesheets/floortileset.png",
          "imageheight":256,
          "imagewidth":256,
          "margin":0,
@@ -874,7 +874,7 @@
         {
          "columns":8,
          "firstgid":321,
-         "image":"..\/leipzig_fair_set.png",
+         "image":"..\/imgs/tilesheets/leipzig_fair_set.png",
          "imageheight":128,
          "imagewidth":256,
          "margin":0,
@@ -924,7 +924,7 @@
         {
          "columns":8,
          "firstgid":353,
-         "image":"..\/cert_set.png",
+         "image":"..\/imgs/tilesheets/cert_set.png",
          "imageheight":576,
          "imagewidth":256,
          "margin":0,
@@ -937,7 +937,7 @@
         {
          "columns":2,
          "firstgid":497,
-         "image":"..\/leipzig_fair_extras_set.png",
+         "image":"..\/imgs/tilesheets/leipzig_fair_extras_set.png",
          "imageheight":192,
          "imagewidth":64,
          "margin":0,
@@ -950,7 +950,7 @@
         {
          "columns":2,
          "firstgid":509,
-         "image":"..\/misc_set.png",
+         "image":"..\/imgs/tilesheets/misc_set.png",
          "imageheight":704,
          "imagewidth":64,
          "margin":0,
@@ -963,7 +963,7 @@
         {
          "columns":16,
          "firstgid":553,
-         "image":"..\/AceSet-Hospital.png",
+         "image":"..\/imgs/tilesheets/AceSet-Hospital.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
