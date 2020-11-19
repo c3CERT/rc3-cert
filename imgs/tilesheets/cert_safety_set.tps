@@ -34,7 +34,7 @@
         <key>dataFormat</key>
         <string>spritesheet-only</string>
         <key>textureFileName</key>
-        <filename></filename>
+        <filename>cert_safety_set.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -174,9 +174,49 @@
             <false/>
         </struct>
         <key>individualSpriteSettings</key>
-        <map type="IndividualSpriteSettingsMap"/>
+        <map type="IndividualSpriteSettingsMap">
+            <key type="filename">01_fire_extinguisher.png</key>
+            <key type="filename">02_kfz_verbandskasten_32x32.png</key>
+            <key type="filename">03_eh-wandschrank_32x32.png</key>
+            <key type="filename">04_emergency_exit_left_32x32-sheet.png</key>
+            <key type="filename">05_emergency_exit_right_32x32.png</key>
+            <key type="filename">06_cert_1818_32x32.png</key>
+            <key type="filename">07_barrier_tape_mid_32x32.png</key>
+            <key type="filename">08_barrier_tape_side_32x32-sheet.png</key>
+            <key type="filename">09_caution_tape_mid_32x32.png</key>
+            <key type="filename">10_caution_tape_side_32x32.png</key>
+            <key type="filename">11_safety_cone.png</key>
+            <key type="filename">12_löschdecke_32x32.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>8,8,16,16</rect>
+                <key>scale9Paddings</key>
+                <rect>8,8,16,16</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+        </map>
         <key>fileList</key>
-        <array/>
+        <array>
+            <filename>01_fire_extinguisher.png</filename>
+            <filename>02_kfz_verbandskasten_32x32.png</filename>
+            <filename>03_eh-wandschrank_32x32.png</filename>
+            <filename>04_emergency_exit_left_32x32-sheet.png</filename>
+            <filename>05_emergency_exit_right_32x32.png</filename>
+            <filename>06_cert_1818_32x32.png</filename>
+            <filename>07_barrier_tape_mid_32x32.png</filename>
+            <filename>08_barrier_tape_side_32x32-sheet.png</filename>
+            <filename>09_caution_tape_mid_32x32.png</filename>
+            <filename>10_caution_tape_side_32x32.png</filename>
+            <filename>11_safety_cone.png</filename>
+            <filename>12_löschdecke_32x32.png</filename>
+        </array>
         <key>ignoreFileList</key>
         <array/>
         <key>replaceList</key>
