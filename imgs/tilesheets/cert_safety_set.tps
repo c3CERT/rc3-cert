@@ -187,8 +187,10 @@
             <key type="filename">../cert_safety_set/10_caution_tape_side_32x32.png</key>
             <key type="filename">../cert_safety_set/11_safety_cone.png</key>
             <key type="filename">../cert_safety_set/12_löschdecke_32x32.png</key>
-            <key type="filename">../cert_safety_set/13_caution_tape_mid_corner_32x32.png</key>
-            <key type="filename">../cert_safety_set/14_barrier_tape_mid_corner_32x32.png</key>
+            <key type="filename">../cert_safety_set/13_barrier_tape_mid_corner_32x32-sheet.png</key>
+            <key type="filename">../cert_safety_set/14_caution_tape_mid_corner_32x32-sheet.png</key>
+            <key type="filename">../cert_safety_set/15_caution_tape_mid_corner_32x32.png</key>
+            <key type="filename">../cert_safety_set/16_barrier_tape_mid_corner_32x32.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -203,7 +205,7 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">../cert_safety_set/15_tape_pole.png</key>
+            <key type="filename">../cert_safety_set/17_tape_pole.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -233,9 +235,11 @@
             <filename>../cert_safety_set/10_caution_tape_side_32x32.png</filename>
             <filename>../cert_safety_set/11_safety_cone.png</filename>
             <filename>../cert_safety_set/12_löschdecke_32x32.png</filename>
-            <filename>../cert_safety_set/13_caution_tape_mid_corner_32x32.png</filename>
-            <filename>../cert_safety_set/14_barrier_tape_mid_corner_32x32.png</filename>
-            <filename>../cert_safety_set/15_tape_pole.png</filename>
+            <filename>../cert_safety_set/13_barrier_tape_mid_corner_32x32-sheet.png</filename>
+            <filename>../cert_safety_set/14_caution_tape_mid_corner_32x32-sheet.png</filename>
+            <filename>../cert_safety_set/15_caution_tape_mid_corner_32x32.png</filename>
+            <filename>../cert_safety_set/16_barrier_tape_mid_corner_32x32.png</filename>
+            <filename>../cert_safety_set/17_tape_pole.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
