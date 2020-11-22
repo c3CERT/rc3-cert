@@ -71,7 +71,7 @@
         {
          "columns":8,
          "firstgid":1,
-         "image":"..\/imgs\/tilesheets\/floortileset.png",
+         "image":"imgs\/tilesheets\/floortileset.png",
          "imageheight":256,
          "imagewidth":256,
          "margin":0,
@@ -84,7 +84,7 @@
         {
          "columns":16,
          "firstgid":65,
-         "image":"..\/imgs\/tilesheets\/tilesets_deviant_milkian_1.png",
+         "image":"imgs\/tilesheets\/tilesets_deviant_milkian_1.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -97,7 +97,7 @@
         {
          "columns":8,
          "firstgid":321,
-         "image":"..\/imgs\/tilesheets\/testing_set.png",
+         "image":"imgs\/tilesheets\/testing_set.png",
          "imageheight":160,
          "imagewidth":256,
          "margin":0,
