@@ -187,6 +187,8 @@
             <key type="filename">../cert_safety_set/10_caution_tape_side_32x32.png</key>
             <key type="filename">../cert_safety_set/11_safety_cone.png</key>
             <key type="filename">../cert_safety_set/12_löschdecke_32x32.png</key>
+            <key type="filename">../cert_safety_set/13_barrier_tape_mid_corner_32x32-sheet.png</key>
+            <key type="filename">../cert_safety_set/14_caution_tape_mid_corner_32x32-sheet.png</key>
             <key type="filename">../cert_safety_set/15_caution_tape_arrow_32x32-sheet.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -234,6 +236,8 @@
             <filename>../cert_safety_set/12_löschdecke_32x32.png</filename>
             <filename>../cert_safety_set/15_caution_tape_arrow_32x32-sheet.png</filename>
             <filename>../cert_safety_set/16_tape_pole.png</filename>
+            <filename>../cert_safety_set/13_barrier_tape_mid_corner_32x32-sheet.png</filename>
+            <filename>../cert_safety_set/14_caution_tape_mid_corner_32x32-sheet.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
