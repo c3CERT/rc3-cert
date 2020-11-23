@@ -5,7 +5,7 @@
 
 ## Install pre-push hook for image checks.
 * pip3 install -p requirements.txt
-* ln scripts/check_imgs.py .git/hooks/pre-push
+* ln scripts/check_imgs.py .git/hooks/pre-commit
 
 ## What to contribute
 ### Sprites
