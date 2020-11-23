@@ -4,7 +4,7 @@
 * Read the README as well.
 
 ## Install pre-commit hook for image checks.
-* pip3 install -p requirements.txt
+* pip3 install -r requirements.txt
 * ln scripts/check_imgs.py .git/hooks/pre-commit
 
 ## What to contribute
