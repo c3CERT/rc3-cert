@@ -64,11 +64,11 @@ if __name__ == "__main__":
 
 
     if COMPOSE_TILESHEETS:
-
+        print("Generate Tilesheets")
         for dir in os.listdir(BASE_DIR):
             if dir != "tilesheets":
                 name = dir
-                print("dir:", dir)
+                print("Processing:", dir)
                 sheet = Spritesheet()
                 row = Row()
                 for file in sorted(os.listdir(os.path.join(BASE_DIR, dir)),key=str.lower):
