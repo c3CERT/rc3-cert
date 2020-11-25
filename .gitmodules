@@ -1,0 +1,3 @@
+[submodule "rc3_tiles"]
+	path = tiles
+	url = https://github.com/cbluoss/rc3_tiles
