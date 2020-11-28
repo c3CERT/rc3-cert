@@ -132,7 +132,7 @@
         {
          "columns":16,
          "firstgid":1,
-         "image":"..\/..\/rc3_tiles\/imgs\/tilesheets\/airport.png",
+         "image":"..\/tiles\/imgs\/tilesheets\/airport.png",
          "imageheight":672,
          "imagewidth":512,
          "margin":0,
@@ -145,7 +145,7 @@
         {
          "columns":8,
          "firstgid":337,
-         "image":"..\/..\/rc3_tiles\/imgs\/tilesheets\/floortileset.png",
+         "image":"..\/tiles\/imgs\/tilesheets\/floortileset.png",
          "imageheight":256,
          "imagewidth":256,
          "margin":0,
@@ -158,7 +158,7 @@
         {
          "columns":16,
          "firstgid":401,
-         "image":"..\/..\/rc3_tiles\/imgs\/tilesheets\/testing.png",
+         "image":"..\/tiles\/imgs\/tilesheets\/testing.png",
          "imageheight":1216,
          "imagewidth":512,
          "margin":0,
@@ -316,7 +316,7 @@
         {
          "columns":2,
          "firstgid":1009,
-         "image":"..\/..\/rc3_tiles\/imgs\/tilesheets\/misc_set.png",
+         "image":"..\/tiles\/imgs\/tilesheets\/misc_set.png",
          "imageheight":832,
          "imagewidth":64,
          "margin":0,
