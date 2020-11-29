@@ -5,9 +5,19 @@
 from shutil import copyfile
 from random import randint, choice
 import json
-ROOMS = 200
+ROOMS = 256
 OUT_DIR = "cube/"
-TEMPLATES = ["cube_assets/quadrat_t1.json","cube_assets/quadrat_t2.json","cube_assets/quadrat_t3.json","cube_assets/quadrat_t4.json"]
+TEMPLATES = ["cube_assets/quadrat_t1.json",
+             "cube_assets/quadrat_t2.json",
+             "cube_assets/quadrat_t3.json",
+             "cube_assets/quadrat_t4.json",
+             "cube_assets/quadrat_t5.json",
+             "cube_assets/quadrat_t6.json",
+             "cube_assets/quadrat_t7.json",
+             "cube_assets/quadrat_t8.json",
+             "cube_assets/quadrat_t9.json",
+             "cube_assets/quadrat_darkness.json"
+             ]
 
 with open("cube_assets/quadrat_inventory.json") as inv_File:
     inventory = json.load(inv_File)
