@@ -16,7 +16,7 @@
  "infinite":false,
  "layers":[
         {
-         "data":[38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 0, 38, 38, 38, 38, 38, 38, 0, 0, 0, 0, 0, 38, 38, 38, 38, 0, 0, 0, 0, 0, 38, 38, 38, 0, 0, 0, 0, 0, 0, 0, 38, 38, 38, 0, 0, 0, 0, 0, 38, 38, 38, 38, 0, 0, 0, 0, 0, 38, 38, 38, 38, 38, 38, 0, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38],
+         "data":[38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 1, 38, 38, 38, 38, 38, 38, 1, 1, 1, 1, 1, 38, 38, 38, 38, 1, 1, 1, 1, 1, 38, 38, 38, 1, 1, 1, 1, 1, 1, 1, 38, 38, 38, 1, 1, 1, 1, 1, 38, 38, 38, 38, 1, 1, 1, 1, 1, 38, 38, 38, 38, 38, 38, 1, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38],
          "height":9,
          "id":2,
          "name":"bottom",
@@ -34,7 +34,7 @@
          "name":"inventoryEmpty",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":9,
          "x":0,
          "y":0
@@ -58,7 +58,7 @@
          "name":"inventory2",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":9,
          "x":0,
          "y":0
@@ -244,7 +244,7 @@
          "y":0
         }, 
         {
-         "data":[0, 0, 0, 470, 0, 0, 470, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 442, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 442, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":9,
          "id":60,
          "name":"inventory18",
@@ -310,7 +310,7 @@
          "name":"inventory23",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":9,
          "x":0,
          "y":0
@@ -322,7 +322,7 @@
          "name":"inventory24",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":9,
          "x":0,
          "y":0
@@ -334,7 +334,7 @@
          "name":"inventory25",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":9,
          "x":0,
          "y":0
@@ -346,7 +346,7 @@
          "name":"inventory26",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":9,
          "x":0,
          "y":0
@@ -358,7 +358,7 @@
          "name":"inventory27",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":9,
          "x":0,
          "y":0
@@ -370,7 +370,7 @@
          "name":"inventory28",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":9,
          "x":0,
          "y":0
@@ -382,7 +382,7 @@
          "name":"inventory29",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":9,
          "x":0,
          "y":0
@@ -394,7 +394,7 @@
          "name":"inventory30",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":9,
          "x":0,
          "y":0
@@ -406,7 +406,7 @@
          "name":"inventory31",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":9,
          "x":0,
          "y":0
@@ -418,7 +418,7 @@
          "name":"inventory32",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":9,
          "x":0,
          "y":0
@@ -430,7 +430,7 @@
          "name":"inventory33",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":9,
          "x":0,
          "y":0
@@ -442,7 +442,7 @@
          "name":"inventory34",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":9,
          "x":0,
          "y":0
@@ -454,7 +454,7 @@
          "name":"inventory35",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":9,
          "x":0,
          "y":0
@@ -466,7 +466,7 @@
          "name":"inventory36",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":9,
          "x":0,
          "y":0
@@ -478,43 +478,43 @@
          "name":"inventory37",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":9,
          "x":0,
          "y":0
         }, 
         {
-         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 785, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":9,
          "id":67,
          "name":"inventory38",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":9,
          "x":0,
          "y":0
         }, 
         {
-         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "data":[0, 0, 0, 0, 0, 170, 171, 0, 0, 0, 0, 0, 0, 0, 186, 187, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":9,
          "id":68,
          "name":"inventory39",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":9,
          "x":0,
          "y":0
         }, 
         {
-         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 849, 850, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":9,
          "id":69,
          "name":"inventory40",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":9,
          "x":0,
          "y":0
@@ -550,7 +550,7 @@
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
