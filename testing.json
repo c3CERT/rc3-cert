@@ -152,6 +152,27 @@
                 {
                  "animation":[
                         {
+                         "duration":5000,
+                         "tileid":176
+                        }, 
+                        {
+                         "duration":5000,
+                         "tileid":177
+                        }],
+                 "id":176
+                }, 
+                {
+                 "id":177,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "animation":[
+                        {
                          "duration":1000,
                          "tileid":464
                         }, 
@@ -543,6 +564,32 @@
          "spacing":0,
          "tilecount":64,
          "tileheight":32,
+         "tiles":[
+                {
+                 "animation":[
+                        {
+                         "duration":1000,
+                         "tileid":3
+                        }, 
+                        {
+                         "duration":1000,
+                         "tileid":19
+                        }, 
+                        {
+                         "duration":1000,
+                         "tileid":4
+                        }],
+                 "id":3
+                }, 
+                {
+                 "id":19,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }],
          "tilewidth":32
         }],
  "tilewidth":32,
