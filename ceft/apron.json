@@ -22,7 +22,7 @@
          "name":"Floor",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":79,
          "x":0,
          "y":0
@@ -40,7 +40,7 @@
                  "value":"runway.json#StartApron"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":79,
          "x":0,
          "y":0
@@ -52,7 +52,7 @@
          "name":"start",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":79,
          "x":0,
          "y":0
@@ -64,7 +64,7 @@
          "name":"Taxiways",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":79,
          "x":0,
          "y":0
@@ -88,7 +88,7 @@
          "name":"SmallDeko",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":79,
          "x":0,
          "y":0
@@ -106,7 +106,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":79,
          "x":0,
          "y":0
@@ -118,7 +118,7 @@
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -135,7 +135,7 @@
                  "value":"gat.json#StartApron"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":79,
          "x":0,
          "y":0
@@ -146,14 +146,8 @@
          "id":31,
          "name":"Gat",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"exitSceneUrl",
-                 "type":"string",
-                 "value":"https:\/\/play.wa-test.rc3.cccv.de\/_\/global\/cbluoss.github.io\/rc3-cert\/ceft\/gat.json"
-                }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":79,
          "x":0,
          "y":0
@@ -165,7 +159,7 @@
          "name":"overlay",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":79,
          "x":0,
          "y":0
