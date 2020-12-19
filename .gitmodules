@@ -1,6 +1,1 @@
-[submodule "rc3_tiles"]
-	path = tiles
-	url = https://github.com/cbluoss/rc3_tiles
-	branch = master
-[submodule "tiles"]
-	url = git@github.com:c3CERT/rc3_tiles.git
+
