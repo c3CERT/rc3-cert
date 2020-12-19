@@ -165,6 +165,12 @@
          "id":15,
          "name":"startWinDesktop",
          "opacity":0,
+         "properties":[
+                {
+                 "name":"startLayer",
+                 "type":"bool",
+                 "value":true
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":51,

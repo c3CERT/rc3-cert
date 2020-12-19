@@ -85,7 +85,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"basement.json#start"
+                 "value":"gallerie.json#startWinDesktop"
                 }],
          "type":"tilelayer",
          "visible":true,
