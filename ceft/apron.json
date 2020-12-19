@@ -180,7 +180,7 @@
  "nextobjectid":9,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.4.1",
+ "tiledversion":"1.4.2",
  "tileheight":32,
  "tilesets":[
         {
@@ -281,6 +281,19 @@
          "name":"mapUtilities",
          "spacing":0,
          "tilecount":9,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":16,
+         "firstgid":5194,
+         "image":"..\/..\/rc3_tiles\/imgs\/tilesheets\/c3_deko.png",
+         "imageheight":2048,
+         "imagewidth":512,
+         "margin":0,
+         "name":"c3_deko",
+         "spacing":0,
+         "tilecount":1024,
          "tileheight":32,
          "tilewidth":32
         }],
