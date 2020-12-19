@@ -90,7 +90,7 @@
          "height":27,
          "id":2,
          "name":"start",
-         "opacity":1,
+         "opacity":0,
          "type":"tilelayer",
          "visible":true,
          "width":41,
@@ -102,7 +102,7 @@
          "height":27,
          "id":11,
          "name":"startWorld",
-         "opacity":0.11,
+         "opacity":0,
          "properties":[
                 {
                  "name":"startLayer",
@@ -120,7 +120,7 @@
          "height":27,
          "id":12,
          "name":"exitWorld",
-         "opacity":0.12,
+         "opacity":0,
          "properties":[
                 {
                  "name":"exitSceneUrl",
@@ -138,7 +138,7 @@
          "height":27,
          "id":3,
          "name":"exitCert",
-         "opacity":0.13,
+         "opacity":0,
          "properties":[
                 {
                  "name":"exitSceneUrl",
@@ -156,7 +156,7 @@
          "height":27,
          "id":4,
          "name":"startCert",
-         "opacity":0.1,
+         "opacity":0,
          "properties":[
                 {
                  "name":"startLayer",
@@ -174,7 +174,7 @@
          "height":27,
          "id":13,
          "name":"collisions",
-         "opacity":0.18,
+         "opacity":0,
          "type":"tilelayer",
          "visible":true,
          "width":41,
