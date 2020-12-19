@@ -181,7 +181,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":""
+                 "value":"teenageriot.json#start"
                 }],
          "type":"tilelayer",
          "visible":true,
