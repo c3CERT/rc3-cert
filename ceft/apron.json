@@ -1371,7 +1371,7 @@
         {
          "columns":16,
          "firstgid":6730,
-         "image":"..\/..\/rc3_tiles\/imgs\/tilesheets\/storage.png",
+         "image":"..\/tiles\/imgs\/tilesheets\/storage.png",
          "imageheight":2048,
          "imagewidth":512,
          "margin":0,
