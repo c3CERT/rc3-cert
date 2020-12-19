@@ -1,5 +1,5 @@
 
 [submodule "tiles"]
 	path = tiles
-	url = git@github.com:c3CERT/rc3_tiles.git
+	url = https://github.com/c3CERT/rc3-cert.git
 	branch = master
