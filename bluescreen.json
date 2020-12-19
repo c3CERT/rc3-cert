@@ -117,6 +117,12 @@
          "id":40,
          "name":"urlPatientenverfuegung",
          "opacity":0,
+         "properties":[
+                {
+                 "name":"exitSceneUrl",
+                 "type":"string",
+                 "value":"https:\/\/www.bundesgesundheitsministerium.de\/patientenverfuegung.html"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":24,
