@@ -73,7 +73,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"basement.json#startPub"
+                 "value":"gallerie.json#startPub"
                 }],
          "type":"tilelayer",
          "visible":true,
