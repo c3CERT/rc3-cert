@@ -28,7 +28,7 @@
          "y":0
         }, 
         {
-         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 372, 0, 0, 0, 378, 0, 0, 0, 0, 0, 0, 634, 0, 0, 0, 0, 0, 0, 0, 0, 382, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2116, 0, 0, 0, 2122, 0, 0, 0, 0, 0, 0, 5242, 0, 0, 0, 0, 0, 0, 0, 0, 2126, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":9,
          "id":5,
          "name":"inventory",
@@ -61,7 +61,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"..\/basement.json#startSchrankeinga"
+                 "value":"..\/basement.json#startSchrankeingang"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -81,7 +81,7 @@
          "y":0
         }, 
         {
-         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 695, 0, 0, 0, 0, 0, 696, 0, 0, 711, 0, 0, 0, 0, 0, 712, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5303, 0, 0, 0, 0, 0, 5304, 0, 0, 5319, 0, 0, 0, 0, 0, 5320, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":9,
          "id":7,
          "name":"override",
@@ -102,7 +102,7 @@
  "nextobjectid":9,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.4.3",
+ "tiledversion":"1.4.2",
  "tileheight":32,
  "tilesets":[
         {
@@ -132,64 +132,64 @@
          "columns":16,
          "firstgid":65,
          "image":"..\/tiles\/imgs\/tilesheets\/cert_safety.png",
-         "imageheight":64,
+         "imageheight":2048,
          "imagewidth":512,
          "margin":0,
          "name":"cert_safety",
          "spacing":0,
-         "tilecount":32,
+         "tilecount":1024,
          "tileheight":32,
          "tilewidth":32
         }, 
         {
          "columns":16,
-         "firstgid":97,
+         "firstgid":1089,
          "image":"..\/tiles\/imgs\/tilesheets\/cert.png",
-         "imageheight":544,
+         "imageheight":2048,
          "imagewidth":512,
          "margin":0,
          "name":"cert",
          "spacing":0,
-         "tilecount":272,
+         "tilecount":1024,
          "tileheight":32,
          "tilewidth":32
         }, 
         {
          "columns":16,
-         "firstgid":369,
+         "firstgid":2113,
          "image":"..\/tiles\/imgs\/tilesheets\/food_and_drinks.png",
-         "imageheight":128,
+         "imageheight":2048,
          "imagewidth":512,
          "margin":0,
          "name":"food_and_drinks",
          "spacing":0,
-         "tilecount":64,
+         "tilecount":1024,
          "tileheight":32,
          "tilewidth":32
         }, 
         {
          "columns":16,
-         "firstgid":433,
+         "firstgid":3137,
          "image":"..\/tiles\/imgs\/tilesheets\/furniture.png",
-         "imageheight":160,
+         "imageheight":2048,
          "imagewidth":512,
          "margin":0,
          "name":"furniture",
          "spacing":0,
-         "tilecount":80,
+         "tilecount":1024,
          "tileheight":32,
          "tilewidth":32
         }, 
         {
          "columns":16,
-         "firstgid":513,
+         "firstgid":4161,
          "image":"..\/tiles\/imgs\/tilesheets\/leipzig_messe.png",
-         "imageheight":128,
+         "imageheight":2048,
          "imagewidth":512,
          "margin":0,
          "name":"leipzig_messe",
          "spacing":0,
-         "tilecount":64,
+         "tilecount":1024,
          "tileheight":32,
          "tiles":[
                 {
@@ -232,14 +232,14 @@
         }, 
         {
          "columns":16,
-         "firstgid":577,
+         "firstgid":5185,
          "image":"..\/tiles\/imgs\/tilesheets\/misc.png",
-         "imageheight":288,
+         "imageheight":2048,
          "imagewidth":512,
          "margin":0,
          "name":"misc",
          "spacing":0,
-         "tilecount":144,
+         "tilecount":1024,
          "tileheight":32,
          "tiles":[
                 {
@@ -266,20 +266,20 @@
         }, 
         {
          "columns":16,
-         "firstgid":721,
+         "firstgid":6209,
          "image":"..\/tiles\/imgs\/tilesheets\/storage.png",
-         "imageheight":96,
+         "imageheight":2048,
          "imagewidth":512,
          "margin":0,
          "name":"storage",
          "spacing":0,
-         "tilecount":48,
+         "tilecount":1024,
          "tileheight":32,
          "tilewidth":32
         }, 
         {
          "columns":16,
-         "firstgid":769,
+         "firstgid":7233,
          "image":"..\/tiles\/imgs\/tilesheets\/tilesets_deviant_milkian_1.png",
          "imageheight":512,
          "imagewidth":512,
