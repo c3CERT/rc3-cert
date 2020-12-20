@@ -1,4 +1,11 @@
 { "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "target":"."
+        }
+    },
  "height":27,
  "infinite":false,
  "layers":[
@@ -215,7 +222,7 @@
                 {
                  "name":"openUrl",
                  "type":"string",
-                 "value":"<URL EINF\u00dcGEN>"
+                 "value":"https:\/\/rc3.cert.ccc.de\/disclaimer\/index.html"
                 }],
          "type":"tilelayer",
          "visible":true,
