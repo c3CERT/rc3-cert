@@ -134,7 +134,7 @@
          "height":56,
          "id":47,
          "name":"ExitSea",
-         "opacity":1,
+         "opacity":0,
          "properties":[
                 {
                  "name":"exitSceneUrl",
