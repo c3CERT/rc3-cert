@@ -157,7 +157,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"church.json"
+                 "value":"church.json#start"
                 }],
          "type":"tilelayer",
          "visible":true,
