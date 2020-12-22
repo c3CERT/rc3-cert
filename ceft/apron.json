@@ -301,7 +301,7 @@
          "height":56,
          "id":41,
          "name":"collisions",
-         "opacity":0.73,
+         "opacity":0,
          "type":"tilelayer",
          "visible":true,
          "width":79,
