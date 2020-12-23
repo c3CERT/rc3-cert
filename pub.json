@@ -276,7 +276,7 @@
  "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.4.3",
+ "tiledversion":"1.4.2",
  "tileheight":32,
  "tilesets":[
         {
@@ -395,7 +395,7 @@
          "tilecount":288,
          "tileheight":32,
          "tilewidth":32
-        },
+        }, 
         {
          "columns":8,
          "firstgid":6753,
@@ -408,7 +408,7 @@
          "tilecount":304,
          "tileheight":32,
          "tilewidth":32
-        },
+        }, 
         {
          "columns":8,
          "firstgid":7057,
@@ -421,7 +421,7 @@
          "tilecount":472,
          "tileheight":32,
          "tilewidth":32
-        },
+        }, 
         {
          "columns":9,
          "firstgid":7529,
