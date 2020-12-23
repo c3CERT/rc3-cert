@@ -19,7 +19,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/cert.ccc.de\/wiki\/index.php?title=Erste-Hilfe-Kasten_(CERT-Edition)"
+                 "value":"https:\/\/rc3.cert.ccc.de\/first-aid_box\/index.html"
                 }],
          "type":"tilelayer",
          "visible":true,
