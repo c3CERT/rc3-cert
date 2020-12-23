@@ -227,7 +227,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":""
+                 "value":"audio\/firewatch.mp3"
                 }],
          "startx":-16,
          "starty":-16,
