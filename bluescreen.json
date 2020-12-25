@@ -121,7 +121,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"https:\/\/www.bundesgesundheitsministerium.de\/patientenverfuegung.html"
+                 "value":"https:\/\/rc3.cert.ccc.de/living_will/index.html"
                 }],
          "type":"tilelayer",
          "visible":true,
