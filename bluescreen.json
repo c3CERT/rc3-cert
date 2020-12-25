@@ -119,9 +119,9 @@
          "opacity":0,
          "properties":[
                 {
-                 "name":"exitSceneUrl",
+                 "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/rc3.cert.ccc.de/living_will/index.html"
+                 "value":"https:\/\/rc3.cert.ccc.de\/living_will\/index.html"
                 }],
          "type":"tilelayer",
          "visible":true,
