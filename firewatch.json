@@ -111,6 +111,12 @@
          "id":8,
          "name":"soundIntroduction",
          "opacity":0,
+         "properties":[
+                {
+                 "name":"playAudio",
+                 "type":"string",
+                 "value":"firewatch.mp3"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":15,
