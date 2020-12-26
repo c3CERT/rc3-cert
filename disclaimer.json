@@ -156,7 +156,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"<WORLDEXIT>"
+                 "value":"foyer.json#startCert"
                 }],
          "type":"tilelayer",
          "visible":true,
