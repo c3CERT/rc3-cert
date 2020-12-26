@@ -141,3 +141,6 @@ cython_debug/
 
 *.ase
 .idea/
+
+# Quantum-specific
+git-pull-all.sh
