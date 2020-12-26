@@ -55,3 +55,10 @@ print("Exitroom: ", exit)
 entry = '0.json'
 copyfile('cube_assets/incube.json', OUT_DIR + entry)
 print("Entryroom: ", entry)
+
+# generate the exits for the incube
+with open (OUT_DIR+entry, 'r') as incube:
+    room_incube = json.load(incube)
+    for layer_incube in range(0, len(room_incube['layers'])):
+        if room_incube['layers'][layer_incube]['name'].startswith('exit'):
+            room_incube['layers'][layer_incube]['properties'][0]['value'] = str(randint(0, ROOMS-1)) + '.json'
