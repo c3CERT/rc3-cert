@@ -49,4 +49,9 @@ for x in range(0,ROOMS):
 ## generate an exit
 exit = str(randint(0,200))+'.json'
 copyfile('cube_assets/outcube.json', OUT_DIR + exit)
-print("Exitroom:", exit)
+print("Exitroom: ", exit)
+
+# generate an entry
+entry = '0.json'
+copyfile('cube_assets/incube.json', OUT_DIR + entry)
+print("Entryroom: ", entry)
