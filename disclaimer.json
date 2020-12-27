@@ -156,7 +156,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"{<lounge>\/main.json#start3}"
+                 "value":"{<lobby>\/main.json#start3}"
                 }],
          "type":"tilelayer",
          "visible":true,
