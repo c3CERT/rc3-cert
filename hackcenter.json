@@ -243,6 +243,12 @@
          "id":31,
          "name":"urlPostoffice",
          "opacity":0,
+         "properties":[
+                {
+                 "name":"openWebsite",
+                 "type":"string",
+                 "value":"https:\/\/rc3.cert.ccc.de\/postcard\/"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":29,
