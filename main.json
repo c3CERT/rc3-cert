@@ -283,7 +283,7 @@
                 {
                  "name":"playAudioLoop",
                  "type":"string",
-                 "value":"audio\/ekg_beep.mp3"
+                 "value":"audio\/ekg_beep+10db.mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
