@@ -103,7 +103,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"main.json#start"
+                 "value":"nerdaufnahme.json#start"
                 }],
          "type":"tilelayer",
          "visible":true,

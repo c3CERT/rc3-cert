@@ -157,7 +157,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"main.json#startHackcenter"
+                 "value":"nerdaufnahme.json#startHackcenter"
                 }],
          "type":"tilelayer",
          "visible":true,

@@ -217,7 +217,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"main.json#startBasement"
+                 "value":"nerdaufnahme.json#startBasement"
                 }],
          "type":"tilelayer",
          "visible":true,

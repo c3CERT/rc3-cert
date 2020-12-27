@@ -97,7 +97,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"main.json#startFirewatch"
+                 "value":"nerdaufnahme.json#startFirewatch"
                 }],
          "type":"tilelayer",
          "visible":true,
