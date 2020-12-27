@@ -33,7 +33,6 @@ for x in range(0,ROOMS):
 
     #tile post processing
 
-
     with open(output, 'r') as file:
         room = json.load(file)
         for layer_i in range(0, len(room['layers'])):
@@ -47,7 +46,7 @@ for x in range(0,ROOMS):
         json.dump(room, file)
 
 ## generate an exit
-exit = str(randint(0,200))+'.json'
+exit = str(randint(1,ROOMS-1))+'.json'
 copyfile('cube_assets/outcube.json', OUT_DIR + exit)
 print("Exitroom: ", exit)
 
