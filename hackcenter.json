@@ -319,7 +319,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"https:\/\/cbluoss.github.io\/rc3-cert\/audio\/ouch.mp3"
+                 "value":"audio\/ouch.mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
