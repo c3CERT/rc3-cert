@@ -50,7 +50,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"winter.json"
+                 "value":"basement.json#startLabyrinth"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -68,7 +68,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"backyard.json#startUp"
+                 "value":"basement.json#startLabyrinth"
                 }],
          "type":"tilelayer",
          "visible":true,
