@@ -307,7 +307,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"{\/main.json#enterFromCert}"
+                 "value":"{<digitalcourage>\/main.json#enterFromCert}"
                 }],
          "type":"tilelayer",
          "visible":true,
