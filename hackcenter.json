@@ -87,6 +87,12 @@
          "id":33,
          "name":"badgeCleanHands",
          "opacity":0,
+         "properties":[
+                {
+                 "name":"openWebsite",
+                 "type":"string",
+                 "value":"htttps:\/\/rc3.cert.ccc.de\/clean_hands\/"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":29,
