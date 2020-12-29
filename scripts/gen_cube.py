@@ -35,7 +35,7 @@ todo_list.append(START_CUBE)
 paths[START_CUBE] = ['START']
 
 
-def generate_cubes(random_uuids, path_uuids):
+def generate_cubes(random_uuids, path_uuid_list):
     with open("cube_assets/quadrat_inventory.json") as inv_File:
         inventory = json.load(inv_File)
         inv_layers = []
@@ -46,7 +46,7 @@ def generate_cubes(random_uuids, path_uuids):
     for x in range(0, ROOMS):
         template = choice(TEMPLATES)
         if x < PATH_LENGTH:
-            output = OUT_DIR + path_uuids.pop(0) + ".json"
+            output = OUT_DIR + path_uuid_list.pop(0) + ".json"
             copyfile(template, output)
         else:
             output = OUT_DIR + str(random_uuids[x-PATH_LENGTH]) + ".json"
@@ -55,8 +55,9 @@ def generate_cubes(random_uuids, path_uuids):
         with open(output, 'r') as file:
             if x < PATH_LENGTH:
                 if x == 49:
-                    path_uuids.append("Dirty hack for exit cube")
-                room = generate_exits(json.load(file), random_uuids, path=True, path_exit_uuid=path_uuids[0])
+                    # dirty hack
+                    path_uuid_list.append("Dirty hack due to call by reference")
+                room = generate_exits(json.load(file), random_uuids, path=True, path_exit_uuid=path_uuid_list[0])
             else:
                 room = generate_exits(json.load(file), random_uuids)
             # add decoration
@@ -220,8 +221,9 @@ if __name__ == '__main__':
         path_uuids = id_list[:PATH_LENGTH]
         for i in range(0, 5):
             random_uuids.append(choice(path_uuids[0:10]))
+        exit_uuid = path_uuids[-1]
         generate_entry(random_uuids=random_uuids, path_uuid=path_uuids[0])
-        generate_cubes(random_uuids=random_uuids, path_uuids=path_uuids)
-        generate_exit(path_uuid=path_uuids[-1])
+        generate_cubes(random_uuids=random_uuids, path_uuid_list=path_uuids)
+        generate_exit(path_uuid=exit_uuid)
         print("Checking path length to exit:")
         path_length = determine_path_to_exit()
