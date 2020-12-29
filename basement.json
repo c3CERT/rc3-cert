@@ -379,7 +379,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"{<loung>\/wa-toilet-party\/maps\/restroom-party.json}"
+                 "value":"{<lounge>\/wa-toilet-party\/maps\/restroom-party.json}"
                 }],
          "type":"tilelayer",
          "visible":true,
