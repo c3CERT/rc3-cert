@@ -7,6 +7,7 @@ from random import randint, choice
 import json
 import uuid
 import os
+import string
 
 ROOMS = 256
 OUT_DIR = "cube/"
@@ -72,8 +73,15 @@ def generate_entry(uuid_list):
 
 def generate_uuids():
     uuid_list = []
+    static_prefix = []
+    static_suffix = []
+    for n in range(0, 20):
+        static_prefix.append(get_random_string(60))
+        static_suffix.append(get_random_string(60))
+
     for n in range(0, ROOMS):
-        uuid_list.append(str(uuid.uuid4()))
+        id = choice(static_prefix) + '-' + str(uuid.uuid4()) + '-' + str(uuid.uuid4()) + '-' + choice(static_suffix)
+        uuid_list.append(id)
     return uuid_list
 
 
@@ -85,9 +93,17 @@ def generate_exits(room_json, uuid_list):
     return room
 
 
+def get_random_string(length):
+    letters = string.ascii_lowercase
+    result_str = ''.join(choice(letters) for i in range(length))
+    print("Random string of length", length, "is:", result_str)
+    return result_str
+
+
 def cleanup():
     rmtree(OUT_DIR)
     os.mkdir(OUT_DIR)
+    return
 
 
 if __name__ == '__main__':
