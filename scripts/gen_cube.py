@@ -9,7 +9,7 @@ import uuid
 import os
 import string
 
-ROOMS = 256
+ROOMS = 1024
 OUT_DIR = "cube/"
 TEMPLATES = ["cube_assets/quadrat_t1.json",
              "cube_assets/quadrat_t2.json",
@@ -49,14 +49,10 @@ def generate_cubes(uuids):
             json.dump(room, file)
 
 
-def generate_exit(uuid_list):
+def generate_exit(uuids):
     # generate an exit
     exit_cube = OUT_DIR + str(choice(uuids)) + '.json'
-
-    with open('cube_assets/outcube.json', 'r') as file:
-        room = generate_exits(json.load(file), uuid_list)
-    with open(exit_cube, 'w') as file:
-        json.dump(room, file)
+    copyfile('cube_assets/outcube.json', exit_cube)
     print("Exitroom: ", exit_cube)
 
 
@@ -72,16 +68,17 @@ def generate_entry(uuid_list):
 
 
 def generate_uuids():
+    iterator = 13
     uuid_list = []
     static_prefix = []
     static_suffix = []
     for n in range(0, 20):
         static_prefix.append(get_random_string(60))
-        static_suffix.append(get_random_string(60))
+        static_suffix.append(get_random_string(15))
 
     for n in range(0, ROOMS):
-        id = choice(static_prefix) + '-' + str(uuid.uuid4()) + '-' + str(uuid.uuid4()) + '-' + choice(static_suffix)
-        uuid_list.append(id)
+        uuids = choice(static_prefix) + '-' + str(uuid.uuid4()) + '-' + str(uuid.uuid4()) + '-' + choice(static_suffix) + str(iterator * n)
+        uuid_list.append(uuids)
     return uuid_list
 
 
@@ -108,7 +105,7 @@ def cleanup():
 
 if __name__ == '__main__':
     cleanup()
-    uuids = generate_uuids()
-    generate_cubes(uuids)
-    generate_entry(uuids)
-    generate_exit(uuids)
+    id_list = generate_uuids()
+    generate_cubes(id_list)
+    generate_entry(id_list)
+    generate_exit(id_list)
