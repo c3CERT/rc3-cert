@@ -9,7 +9,7 @@ import uuid
 import os
 import string
 
-ROOMS = 256 
+ROOMS = 128
 MIN_PATH_LENGTH = 40
 PATH_LENGTH = 50
 OUT_DIR = "cube/"
