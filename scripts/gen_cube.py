@@ -9,8 +9,8 @@ import uuid
 import os
 import string
 
-ROOMS = 1024
-MIN_PATH_LENGTH = 10
+ROOMS = 256 
+MIN_PATH_LENGTH = 6 
 OUT_DIR = "cube/"
 TEMPLATES = ["cube_assets/quadrat_t1.json",
              "cube_assets/quadrat_t2.json",
@@ -77,16 +77,16 @@ def generate_entry(uuid_list):
 
 
 def generate_uuids():
-    iterator = 13
+    iterator = 17
     uuid_list = []
     static_prefix = []
     static_suffix = []
-    for n in range(0, 20):
-        static_prefix.append(get_random_string(60))
-        static_suffix.append(get_random_string(15))
+    for n in range(0, 1):
+        static_prefix.append(get_random_string(6))
+        static_suffix.append(get_random_string(4))
 
     for n in range(0, ROOMS):
-        uuids = choice(static_prefix) + '-' + str(uuid.uuid4()) + '-' + str(uuid.uuid4()) + '-' + choice(static_suffix) + str(iterator * n)
+        uuids = choice(static_prefix) + '-' + str(uuid.uuid4()) + '-' + choice(static_suffix) + str(iterator * n)
         uuid_list.append(uuids)
     return uuid_list
 
