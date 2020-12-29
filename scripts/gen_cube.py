@@ -3,14 +3,15 @@
 # Brace yourself, the cube is coming!
 
 from shutil import copyfile, rmtree
-from random import choice, shuffle
+from random import choice, shuffle, randint
 import json
 import uuid
 import os
 import string
 
 ROOMS = 256 
-MIN_PATH_LENGTH = 6 
+MIN_PATH_LENGTH = 40
+PATH_LENGTH = 50
 OUT_DIR = "cube/"
 TEMPLATES = ["cube_assets/quadrat_t1.json",
              "cube_assets/quadrat_t2.json",
@@ -33,7 +34,8 @@ paths = dict()
 todo_list.append(START_CUBE)
 paths[START_CUBE] = ['START']
 
-def generate_cubes(uuids):
+
+def generate_cubes(random_uuids, path_uuids):
     with open("cube_assets/quadrat_inventory.json") as inv_File:
         inventory = json.load(inv_File)
         inv_layers = []
@@ -43,13 +45,20 @@ def generate_cubes(uuids):
 
     for x in range(0, ROOMS):
         template = choice(TEMPLATES)
-        output = OUT_DIR + str(uuids[x]) + ".json"
-        copyfile(template, output)
-
+        if x < PATH_LENGTH:
+            output = OUT_DIR + path_uuids.pop(0) + ".json"
+            copyfile(template, output)
+        else:
+            output = OUT_DIR + str(random_uuids[x-PATH_LENGTH]) + ".json"
+            copyfile(template, output)
         # tile post processing
-
         with open(output, 'r') as file:
-            room = generate_exits(json.load(file), uuids)
+            if x < PATH_LENGTH:
+                if x == 49:
+                    path_uuids.append("Dirty hack for exit cube")
+                room = generate_exits(json.load(file), random_uuids, path=True, path_exit_uuid=path_uuids[0])
+            else:
+                room = generate_exits(json.load(file), random_uuids)
             # add decoration
             inv = choice(inv_layers)
             room['layers'][1] = inv
@@ -58,19 +67,18 @@ def generate_cubes(uuids):
             json.dump(room, file)
 
 
-def generate_exit(uuids):
+def generate_exit(path_uuid):
     # generate an exit
-    exit_cube = OUT_DIR + str(choice(uuids)) + '.json'
+    exit_cube = OUT_DIR + path_uuid + '.json'
     copyfile('cube_assets/outcube.json', exit_cube)
     print("Exitroom: ", exit_cube)
 
 
-def generate_entry(uuid_list):
+def generate_entry(random_uuids, path_uuid):
     # generate an entry
     entry = OUT_DIR + '0.json'
-
     with open('cube_assets/incube.json', 'r') as file:
-        room = generate_exits(json.load(file), uuid_list)
+        room = generate_exits(json.load(file), random_uuids, path=True, path_exit_uuid=path_uuid)
     with open(entry, 'w') as file:
         json.dump(room, file)
     print("Entryroom: ", entry)
@@ -91,13 +99,22 @@ def generate_uuids():
     return uuid_list
 
 
-def generate_exits(room_json, uuid_list):
+def generate_exits(room_json, uuid_list, path=False, path_exit_uuid=""):
     exits = ['exit1', 'exit2', 'exit3', 'exit4']
     shuffle(exits)
     room = room_json
+    id_list = []
+    if path:
+        id_list.append(path_exit_uuid)
+        for x in range(0, 3):
+            id_list.append(choice(uuid_list))
+    else:
+        for x in range(0, 4):
+            id_list.append(choice(uuid_list))
+    shuffle(id_list)
     for layer_i in range(0, len(room['layers'])):
         if room['layers'][layer_i]['name'].startswith('exit'):
-            room['layers'][layer_i]['properties'][0]['value'] = str(choice(uuid_list)) + '.json'
+            room['layers'][layer_i]['properties'][0]['value'] = str(id_list.pop()) + '.json'
             room['layers'][layer_i]['name'] = exits.pop(0)
     return room
 
@@ -122,14 +139,12 @@ def get_cube(file_url):
     return data, jsondata
 
 
-
 def is_exit_cube(data, jsondata):
     if data.count('../audio/cube_introduction.mp3') > 0:
         return False
     if data.count('basement.json') == 0:
         return False
     return True
-
 
 
 def parse_cube(url, cube, path):
@@ -201,8 +216,12 @@ if __name__ == '__main__':
         todo_list.append(START_CUBE)
         paths[START_CUBE] = ['START']
         id_list = generate_uuids()
-        generate_cubes(id_list)
-        generate_entry(id_list)
-        generate_exit(id_list)
+        random_uuids = id_list[PATH_LENGTH:]
+        path_uuids = id_list[:PATH_LENGTH]
+        for i in range(0, 5):
+            random_uuids.append(choice(path_uuids[0:10]))
+        generate_entry(random_uuids=random_uuids, path_uuid=path_uuids[0])
+        generate_cubes(random_uuids=random_uuids, path_uuids=path_uuids)
+        generate_exit(path_uuid=path_uuids[-1])
         print("Checking path length to exit:")
         path_length = determine_path_to_exit()
