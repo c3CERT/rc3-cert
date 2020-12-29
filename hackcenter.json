@@ -91,7 +91,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"htttps:\/\/rc3.cert.ccc.de\/clean_hands\/"
+                 "value":"https:\/\/rc3.cert.ccc.de\/clean_hands\/"
                 }],
          "type":"tilelayer",
          "visible":true,
