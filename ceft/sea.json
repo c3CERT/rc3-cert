@@ -89,9 +89,9 @@
          "opacity":0,
          "properties":[
                 {
-                 "name":"openWebsite",
+                 "name":"getBadge",
                  "type":"string",
-                 "value":"https:\/\/rc3.cert.ccc.de\/deep_diver\/"
+                 "value":"XDdrfvxAMTMSOK9Oi52kLGVsz0L2wJ7897yWQH5DUxWTyVncIW"
                 }],
          "type":"tilelayer",
          "visible":true,

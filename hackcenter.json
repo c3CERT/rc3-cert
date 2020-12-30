@@ -89,9 +89,9 @@
          "opacity":0,
          "properties":[
                 {
-                 "name":"openWebsite",
+                 "name":"getBadge",
                  "type":"string",
-                 "value":"https:\/\/rc3.cert.ccc.de\/clean_hands\/"
+                 "value":"zJwgckEKSqfzgrAGrpkQ7qkIP833vqOIWfnlDUTV6m6k8F4fxQ"
                 }],
          "type":"tilelayer",
          "visible":true,
