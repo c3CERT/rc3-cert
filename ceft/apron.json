@@ -283,7 +283,7 @@
          "height":56,
          "id":59,
          "name":"overlayA38",
-         "opacity":0,
+         "opacity":1,
          "type":"tilelayer",
          "visible":true,
          "width":79,
@@ -510,7 +510,7 @@
          "value":"A"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.4.1",
+ "tiledversion":"1.4.2",
  "tileheight":32,
  "tilesets":[
         {

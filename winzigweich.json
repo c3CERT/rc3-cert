@@ -175,7 +175,7 @@
          "height":20,
          "id":41,
          "name":"overlayA38",
-         "opacity":0,
+         "opacity":1,
          "type":"tilelayer",
          "visible":true,
          "width":24,
