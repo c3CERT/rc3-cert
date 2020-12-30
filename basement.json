@@ -125,9 +125,9 @@
          "opacity":0,
          "properties":[
                 {
-                 "name":"openWebsite",
+                 "name":"getBadge",
                  "type":"string",
-                 "value":"https:\/\/rc3.cert.ccc.de\/rupert\/index.html"
+                 "value":"TiYFhsVsjEOUpi3D05u8tOyIartQe8DBz2GLzKbG7tYo75sxPa"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -145,7 +145,7 @@
                 {
                  "name":"getBadge",
                  "type":"string",
-                 "value":"Z8l6VWtO8vZJ1prxqaEe6WyPXzp6JRmoi9HnS91X4VRsJc6AK8"
+                 "value":"TiYFhsVsjEOUpi3D05u8tOyIartQe8DBz2GLzKbG7tYo75sxPa"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -738,7 +738,7 @@
  "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.4.3",
+ "tiledversion":"1.4.2",
  "tileheight":32,
  "tilesets":[
         {
