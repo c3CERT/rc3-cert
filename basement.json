@@ -143,9 +143,9 @@
          "opacity":0,
          "properties":[
                 {
-                 "name":"getBadge",
+                 "name":"openWebsite",
                  "type":"string",
-                 "value":"Z8l6VWtO8vZJ1prxqaEe6WyPXzp6JRmoi9HnS91X4VRsJc6AK8"
+                 "value":"https:\/\/rc3.cert.ccc.de\/blessed_by_CAT\/"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -738,7 +738,7 @@
  "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.4.3",
+ "tiledversion":"1.4.2",
  "tileheight":32,
  "tilesets":[
         {
