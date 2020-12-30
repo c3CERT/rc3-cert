@@ -8,6 +8,7 @@ import json
 import uuid
 import os
 import string
+import solve_cube
 
 ROOMS = 128
 MIN_PATH_LENGTH = 40
@@ -133,79 +134,6 @@ def cleanup():
     return
 
 
-def get_cube(file_url):
-    with open(file_url, 'r') as cube:
-        data = cube.read()
-        jsondata = json.loads(data)
-    return data, jsondata
-
-
-def is_exit_cube(data, jsondata):
-    if data.count('../audio/cube_introduction.mp3') > 0:
-        return False
-    if data.count('basement.json') == 0:
-        return False
-    return True
-
-
-def parse_cube(url, cube, path):
-    data, jsondata = get_cube(url)
-    exits = dict()
-    if not is_exit_cube(data, jsondata):
-        for layer in jsondata["layers"]:
-            if isinstance(layer, dict) and "properties" in layer:
-                for prop in layer["properties"]:
-                    if prop["name"] == "exitUrl":
-                        direction = None
-                        if layer["data"][13] == 10:
-                            direction = "up"
-                        elif layer["data"][37] == 10:
-                            direction = "left"
-                        elif layer["data"][43] == 10:
-                            direction = "right"
-                        elif layer["data"][67] == 10:
-                            direction = "down"
-                        if not direction:
-                            raise("Failed to determine exit direction. Please fix.")
-                        exits[direction] = prop["value"]
-                        if prop["value"] not in todo_list and \
-                                prop["value"] not in cubes and \
-                                prop["value"] != cube:
-                            todo_list.append(prop["value"])
-                            next_path = path[:]
-                            next_path.append(direction)
-                            paths[prop["value"]] = next_path
-        cubes[cube] = exits
-        return False, data, jsondata
-    else:
-        for layer in jsondata["layers"]:
-            if isinstance(layer, dict) and "properties" in layer:
-                for prop in layer["properties"]:
-                    if prop["name"] == "exitUrl":
-                        exits[layer["name"]] = prop["value"]
-                        if prop["value"] not in todo_list and \
-                                prop["value"] not in cubes:
-                            todo_list.append(prop["value"])
-        cubes[cube] = exits
-        return True, data, jsondata
-
-
-def determine_path_to_exit():
-    while True:
-        if not todo_list:
-            print("Todo list empty, no exit found")
-            return 0
-        else:
-            next_cube = todo_list.pop(0)
-            cube_url = "%s/%s" % (OUT_DIR, next_cube, )
-            final_cube, data, jsondata = parse_cube(cube_url, next_cube, paths[next_cube])
-            if final_cube:
-                print("Found final cube: %s" % next_cube)
-                print("Path length: %s" % (len(paths[next_cube]), ))
-                print("Path: %s" % (paths[next_cube], ))
-                return len(paths[next_cube])
-
-
 if __name__ == '__main__':
     path_length = 0
     while path_length < MIN_PATH_LENGTH:
@@ -217,6 +145,7 @@ if __name__ == '__main__':
         todo_list.append(START_CUBE)
         paths[START_CUBE] = ['START']
         id_list = generate_uuids()
+        shuffle(id_list)
         random_uuids = id_list[PATH_LENGTH:]
         path_uuids = id_list[:PATH_LENGTH]
         for i in range(0, 5):
@@ -226,4 +155,4 @@ if __name__ == '__main__':
         generate_cubes(random_uuids=random_uuids, path_uuid_list=path_uuids)
         generate_exit(path_uuid=exit_uuid)
         print("Checking path length to exit:")
-        path_length = determine_path_to_exit()
+        path_length = solve_cube.determine_path_to_exit()
