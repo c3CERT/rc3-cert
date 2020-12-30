@@ -28,6 +28,42 @@
          "y":0
         }, 
         {
+         "data":[8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 0, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264, 8264],
+         "height":9,
+         "id":29,
+         "name":"awardBadge",
+         "opacity":0,
+         "properties":[
+                {
+                 "name":"getBadge",
+                 "type":"string",
+                 "value":"gDQR4fRtwApeILYk3ok7iqi5zAdbe2ehNngUmczMOTIdegU6iV"
+                }],
+         "type":"tilelayer",
+         "visible":true,
+         "width":9,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8265, 0, 0, 0, 0, 0, 0, 0, 0, 8265, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "height":9,
+         "id":30,
+         "name":"badgeUrl",
+         "opacity":0,
+         "properties":[
+                {
+                 "name":"openWebsite",
+                 "type":"string",
+                 "value":"https:\/\/rc3.cert.ccc.de\/cube_exit\/enterCube.html"
+                }],
+         "type":"tilelayer",
+         "visible":true,
+         "width":9,
+         "x":0,
+         "y":0
+        }, 
+        {
          "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7233, 0, 0, 0, 0, 0, 0, 0, 0, 7240, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":9,
          "id":5,
@@ -170,11 +206,17 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":29,
+ "nextlayerid":31,
  "nextobjectid":9,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"awardBadge",
+         "type":"string",
+         "value":"gDQR4fRtwApeILYk3ok7iqi5zAdbe2ehNngUmczMOTIdegU6iV"
+        }],
  "renderorder":"right-down",
- "tiledversion":"1.4.2",
+ "tiledversion":"1.4.1",
  "tileheight":32,
  "tilesets":[
         {
