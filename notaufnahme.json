@@ -191,7 +191,7 @@
         {
          "columns":16,
          "firstgid":1,
-         "image":"..\/rc3v2\/nextTiles\/imgs\/tilesheets\/building21.png",
+         "image":"tiles\/imgs\/tilesheets\/building21.png",
          "imageheight":2048,
          "imagewidth":512,
          "margin":0,
@@ -204,7 +204,7 @@
         {
          "columns":16,
          "firstgid":1025,
-         "image":"..\/rc3v2\/nextTiles\/imgs\/tilesheets\/building_parts.png",
+         "image":"tiles\/imgs\/tilesheets\/building_parts.png",
          "imageheight":2048,
          "imagewidth":512,
          "margin":0,
@@ -217,7 +217,7 @@
         {
          "columns":16,
          "firstgid":2049,
-         "image":"..\/rc3v2\/nextTiles\/imgs\/tilesheets\/c3_deko.png",
+         "image":"tiles\/imgs\/tilesheets\/c3_deko.png",
          "imageheight":2048,
          "imagewidth":512,
          "margin":0,
@@ -230,7 +230,7 @@
         {
          "columns":16,
          "firstgid":3073,
-         "image":"..\/rc3v2\/nextTiles\/imgs\/tilesheets\/cert_safety.png",
+         "image":"tiles\/imgs\/tilesheets\/cert_safety.png",
          "imageheight":2048,
          "imagewidth":512,
          "margin":0,
@@ -243,7 +243,7 @@
         {
          "columns":16,
          "firstgid":4097,
-         "image":"..\/rc3v2\/nextTiles\/imgs\/tilesheets\/cert.png",
+         "image":"tiles\/imgs\/tilesheets\/cert.png",
          "imageheight":2048,
          "imagewidth":512,
          "margin":0,
@@ -256,7 +256,7 @@
         {
          "columns":8,
          "firstgid":5121,
-         "image":"..\/rc3v2\/nextTiles\/imgs\/tilesheets\/floortileset.png",
+         "image":"tiles\/imgs\/tilesheets\/floortileset.png",
          "imageheight":256,
          "imagewidth":256,
          "margin":0,
@@ -269,7 +269,7 @@
         {
          "columns":16,
          "firstgid":5185,
-         "image":"..\/rc3v2\/nextTiles\/imgs\/tilesheets\/leipzig_messe.png",
+         "image":"tiles\/imgs\/tilesheets\/leipzig_messe.png",
          "imageheight":2048,
          "imagewidth":512,
          "margin":0,
@@ -282,7 +282,7 @@
         {
          "columns":16,
          "firstgid":6209,
-         "image":"..\/rc3v2\/nextTiles\/imgs\/tilesheets\/food_and_drinks.png",
+         "image":"tiles\/imgs\/tilesheets\/food_and_drinks.png",
          "imageheight":2048,
          "imagewidth":512,
          "margin":0,
@@ -295,7 +295,7 @@
         {
          "columns":16,
          "firstgid":7233,
-         "image":"..\/rc3v2\/nextTiles\/imgs\/tilesheets\/furniture.png",
+         "image":"tiles\/imgs\/tilesheets\/furniture.png",
          "imageheight":2048,
          "imagewidth":512,
          "margin":0,
@@ -308,7 +308,7 @@
         {
          "columns":16,
          "firstgid":8257,
-         "image":"..\/rc3v2\/nextTiles\/imgs\/tilesheets\/storage.png",
+         "image":"tiles\/imgs\/tilesheets\/storage.png",
          "imageheight":2048,
          "imagewidth":512,
          "margin":0,
@@ -321,7 +321,7 @@
         {
          "columns":16,
          "firstgid":9281,
-         "image":"..\/rc3v2\/nextTiles\/imgs\/tilesheets\/doors.png",
+         "image":"tiles\/imgs\/tilesheets\/doors.png",
          "imageheight":2048,
          "imagewidth":512,
          "margin":0,
@@ -334,7 +334,7 @@
         {
          "columns":9,
          "firstgid":10305,
-         "image":"..\/rc3v2\/nextTiles\/imgs\/tilesheets\/mapUtilities.png",
+         "image":"tiles\/imgs\/tilesheets\/mapUtilities.png",
          "imageheight":32,
          "imagewidth":288,
          "margin":0,
