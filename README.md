@@ -8,14 +8,11 @@
 - Grafikprogramme der Wahl. z.b. https://www.piskelapp.com/ LibreSprite oder was immer man bevorzugt/kennt.
 
 ## Räume
-- disclaimer.json Ein Zugangstunnel mit Disclaimer
-- maps.json Das "Kerncert" 
+Es gibt in diesem Jahr zwei CERTs. Es gibt die nachgebildeten Räumlichkeiten aus Leipzig und es gibt das CERT-Krankenhaus.
+- disclaimer.json Eine kleine Insel mit Disclaimer und Abzweigung zu den verschiedenen CERTs.
+- maps.json Das CERT in den Räumlichkeiten von Leipzig 
 - hackcenter.json Das angrenzende Hackcenter inkl. Klo, Küche + Vortragsecke
-- basement.json Der Keller, für all das Zeug was blubbel uns normalerweise verbietet.
-- gallerie.json Ein Verbindungsgang nördlich des Kellers
-- ceft/gat.json Das Terminalgebäude
-- ceft/apron.json Das Vorfeld
-- ceft/runway.json Die Start- und Landebahn
+- klinik_0.json Die Eingangsebene der Klinik mit Zentraler Notaufnahme, Radiologie und anderem.
 
 ## Bugs
 - Raumwechsel funktionieren nicht ~mit den vorgesehenen entryPoints~ bei der Verwendung von exitUrl. exitSceneUrl ist deprecated, aber funktioniert problemlos.
