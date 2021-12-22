@@ -264,6 +264,11 @@
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/rc3.cert.ccc.de\/disclaimer\/index.html"
+                }, 
+                {
+                 "name":"openWebsiteTrigger",
+                 "type":"string",
+                 "value":"onaction"
                 }],
          "type":"tilelayer",
          "visible":true,
