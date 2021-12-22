@@ -44,15 +44,21 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "height":126.333333333333,
+                 "height":193.62939303145,
                  "id":4,
                  "name":"fahrstuhlMenu",
+                 "properties":[
+                        {
+                         "name":"script",
+                         "type":"string",
+                         "value":"..\/dist\/fahrstuhl_script.js"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":126.333333333333,
-                 "x":65.3333333333333,
-                 "y":32
+                 "width":172.318974127047,
+                 "x":225.722275613847,
+                 "y":-17.2832268641529
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -123,6 +129,12 @@
  "nextlayerid":12,
  "nextobjectid":5,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"script",
+         "type":"string",
+         "value":"..\/dist\/script.js"
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
  "tileheight":32,
