@@ -273,7 +273,7 @@
                 {
                  "name":"tilesetCopyright",
                  "type":"string",
-                 "value":"deinkoks"
+                 "value":"CC-BY-SA cert.ccc.de"
                 }],
          "spacing":0,
          "tilecount":1024,

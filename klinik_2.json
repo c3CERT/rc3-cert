@@ -233,7 +233,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"klinik_1.json#startKlinik_1"
+                 "value":"klinik_1.json#startKlinik_2"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -377,6 +377,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"building_parts",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-0"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -428,6 +434,12 @@
          "imagewidth":256,
          "margin":0,
          "name":"floortileset",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-0"
+                }],
          "spacing":0,
          "tilecount":64,
          "tileheight":32,

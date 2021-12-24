@@ -145,12 +145,6 @@
          "id":12,
          "name":"exitWorld",
          "opacity":0,
-         "properties":[
-                {
-                 "name":"exitUrl",
-                 "type":"string",
-                 "value":"{<lobby>\/main.json#start"
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":41,

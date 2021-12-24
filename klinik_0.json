@@ -317,7 +317,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"klinik_1.json#start_Klinik_0"
+                 "value":"klinik_1.json#startKlinik_0"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -421,12 +421,6 @@
          "id":6,
          "name":"collides",
          "opacity":0,
-         "properties":[
-                {
-                 "name":"collides",
-                 "type":"bool",
-                 "value":true
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":96,
@@ -467,6 +461,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"building_parts",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-0"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -518,6 +518,12 @@
          "imagewidth":256,
          "margin":0,
          "name":"floortileset",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-0"
+                }],
          "spacing":0,
          "tilecount":64,
          "tileheight":32,
@@ -550,6 +556,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"furniture",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-BY-SA cert.ccc.de"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -668,6 +680,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"misc",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-BY-SA cert.ccc.de"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
