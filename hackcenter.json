@@ -321,6 +321,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"cert_safety",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-BY-SA cert.ccc.de"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -393,6 +399,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"misc",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-BY-SA cert.ccc.de"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -423,6 +435,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"food_and_drinks",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-BY-SA cert.ccc.de"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -436,6 +454,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"storage",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-BY-SA cert.ccc.de"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -462,6 +486,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"furniture",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-BY-SA cert.ccc.de"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -475,6 +505,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"cert",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-BY-SA cert.ccc.de"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -488,6 +524,12 @@
          "imagewidth":288,
          "margin":0,
          "name":"mapUtilities",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-0"
+                }],
          "spacing":0,
          "tilecount":9,
          "tileheight":32,

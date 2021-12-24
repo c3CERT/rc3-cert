@@ -202,6 +202,12 @@
          "imagewidth":256,
          "margin":0,
          "name":"floortileset",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-0"
+                }],
          "spacing":0,
          "tilecount":64,
          "tileheight":32,
@@ -215,6 +221,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"building_parts",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-0"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -228,6 +240,12 @@
          "imagewidth":288,
          "margin":0,
          "name":"mapUtilities",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-0"
+                }],
          "spacing":0,
          "tilecount":9,
          "tileheight":32,
@@ -251,6 +269,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"building21",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"deinkoks"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
