@@ -147,9 +147,9 @@
          "opacity":0,
          "properties":[
                 {
-                 "name":"exitSceneUrl",
+                 "name":"exitUrl",
                  "type":"string",
-                 "value":"{<lobby>\/main.json#start3}"
+                 "value":"{<lobby>\/main.json#start"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -183,7 +183,7 @@
          "opacity":0,
          "properties":[
                 {
-                 "name":"exitSceneUrl",
+                 "name":"exitUrl",
                  "type":"string",
                  "value":"nerdaufnahme.json#startDisclaimer"
                 }],
@@ -219,7 +219,7 @@
          "opacity":0,
          "properties":[
                 {
-                 "name":"exitSceneUrl",
+                 "name":"exitUrl",
                  "type":"string",
                  "value":"klinik_0.json#startDisclaimer"
                 }],
