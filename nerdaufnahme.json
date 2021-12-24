@@ -222,12 +222,6 @@
          "id":25,
          "name":"urlWhiteboard",
          "opacity":0,
-         "properties":[
-                {
-                 "name":"openWebsite",
-                 "type":"string",
-                 "value":""
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":21,
