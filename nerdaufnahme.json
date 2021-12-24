@@ -156,6 +156,11 @@
          "properties":[
                 {
                  "name":"audioLoop",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"playAudio",
                  "type":"string",
                  "value":"audio\/ekg_beep+10db.mp3"
                 }],
@@ -174,6 +179,11 @@
          "properties":[
                 {
                  "name":"audioLoop",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"playAudio",
                  "type":"string",
                  "value":"audio\/cert_ring.mp3"
                 }],
@@ -192,6 +202,11 @@
          "properties":[
                 {
                  "name":"audioLoop",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"playAudio",
                  "type":"string",
                  "value":"audio\/evita_warning.mp3"
                 }],
@@ -211,7 +226,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/pads.cert.ccc.de\/p\/rc3-ingame-pad"
+                 "value":""
                 }],
          "type":"tilelayer",
          "visible":true,

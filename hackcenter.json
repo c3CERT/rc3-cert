@@ -581,19 +581,6 @@
          "tilecount":1024,
          "tileheight":32,
          "tilewidth":32
-        }, 
-        {
-         "columns":16,
-         "firstgid":9290,
-         "image":"tiles\/imgs\/tilesheets\/npc.png",
-         "imageheight":2048,
-         "imagewidth":512,
-         "margin":0,
-         "name":"npc",
-         "spacing":0,
-         "tilecount":1024,
-         "tileheight":32,
-         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
