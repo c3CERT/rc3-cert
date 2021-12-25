@@ -149,7 +149,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"klinik_2.json#startFeuertreppe"
+                 "value":"klinik_2.json#startFeuertreppe0-2-23"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -167,7 +167,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"klinik_3.json#startFeuertreppe"
+                 "value":"klinik_3.json#startFeuertreppe2-23-3"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -190,6 +190,12 @@
  "nextlayerid":15,
  "nextobjectid":1,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"exitUrl",
+         "type":"string",
+         "value":"klinik_2.json#startFeuertreppe0-2-23"
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
  "tileheight":32,

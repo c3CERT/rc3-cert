@@ -113,7 +113,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"klinik_2.json#startFeuertreppe"
+                 "value":"klinik_2.json#startFeuertreppe0-2-23"
                 }],
          "type":"tilelayer",
          "visible":true,
