@@ -345,7 +345,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"klinik_2.json"
+                 "value":"klinik_2.json#startKlinik_1"
                 }],
          "type":"tilelayer",
          "visible":true,
