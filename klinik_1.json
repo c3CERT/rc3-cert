@@ -107,6 +107,12 @@
                  "height":80,
                  "id":1,
                  "name":"getetestBadge",
+                 "properties":[
+                        {
+                         "name":"getBadge",
+                         "type":"string",
+                         "value":""
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -115,12 +121,6 @@
                  "y":2175
                 }],
          "opacity":1,
-         "properties":[
-                {
-                 "name":"getBadge",
-                 "type":"string",
-                 "value":""
-                }],
          "type":"objectgroup",
          "visible":true,
          "x":0,
