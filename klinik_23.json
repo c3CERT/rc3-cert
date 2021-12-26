@@ -613,6 +613,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"airport",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-BY-SA cert.ccc.de"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -626,6 +632,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"atari",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-BY-SA cert.ccc.de"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -639,6 +651,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"c3sign",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-BY-SA c3signs"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -652,6 +670,12 @@
          "imagewidth":256,
          "margin":0,
          "name":"dungeon",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-0"
+                }],
          "spacing":0,
          "tilecount":64,
          "tileheight":32,
@@ -665,6 +689,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"npc",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-BY-SA cert.ccc.de"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -678,6 +708,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"leipzig_messe",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-0"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -691,6 +727,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"ponys",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-BY-SA https:\/\/www.deviantart.com\/zeka10000"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -704,6 +746,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"rc3",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-0"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -717,6 +765,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"retro",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-BY-SA cert.ccc.de"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -730,6 +784,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"testing",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-BY-SA cert.ccc.de"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -743,6 +803,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"wintiles",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-BY-SA cert.ccc.de"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -773,6 +839,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"c3_deko",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-BY-SA cert.ccc.de"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -786,6 +858,12 @@
          "imagewidth":224,
          "margin":0,
          "name":"minideko",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-0"
+                }],
          "spacing":0,
          "tilecount":91,
          "tileheight":32,
@@ -799,6 +877,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"seidenstrasse",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-BY-SA c3seidenstrasse"
+                }],
          "spacing":0,
          "tilecount":96,
          "tileheight":32,
