@@ -767,16 +767,6 @@
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
-         "tiles":[
-                {
-                 "id":0,
-                 "properties":[
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA cert.ccc.de"
-                        }]
-                }],
          "tilewidth":32
         }],
  "tilewidth":32,
