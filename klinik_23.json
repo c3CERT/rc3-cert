@@ -956,6 +956,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"IT",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-BY-SA cert.ccc.de"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -1070,13 +1076,7 @@
                          "duration":100,
                          "tileid":34
                         }],
-                 "id":66,
-                 "properties":[
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC-BY-SA cert.ccc.de"
-                        }]
+                 "id":66
                 }, 
                 {
                  "animation":[
