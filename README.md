@@ -9,13 +9,12 @@
 
 ## Räume
 Es gibt in diesem Jahr zwei CERTs. Es gibt die nachgebildeten Räumlichkeiten aus Leipzig und es gibt das CERT-Krankenhaus.
-- disclaimer.json Eine kleine Insel mit Disclaimer und Abzweigung zu den verschiedenen CERTs.
-- maps.json Das CERT in den Räumlichkeiten von Leipzig 
+- main.json Eine kleine Insel mit Disclaimer und Abzweigung zu den verschiedenen CERTs.
+- nerdaufnahme.json Das CERT in den Räumlichkeiten von Leipzig 
 - hackcenter.json Das angrenzende Hackcenter inkl. Klo, Küche + Vortragsecke
-- klinik_0.json Die Eingangsebene der Klinik mit Zentraler Notaufnahme, Radiologie und anderem.
-
-## Bugs
-- Raumwechsel funktionieren nicht ~mit den vorgesehenen entryPoints~ bei der Verwendung von exitUrl. exitSceneUrl ist deprecated, aber funktioniert problemlos.
+- klinik_X.json Die verschiedenen Stockwerke der Klinik, mit allem was ein modernes Krankenhaus so braucht.
+- fahrstuhl.json Der Fahrstuhl, welcher die verschiedenen Stockwerke der Klinik verbindet.
+- feuertreppe.json Die Feuertreppe außen am Gebäude.
 
 ## Assets
 - Tilesize: 32x32px, .png
