@@ -95,7 +95,7 @@ let playBGMusic: any = (song: string, volume: number = 0.3, loop: boolean = true
 }
 
 let playBing: any = () => {
-    playBGMusic("./fahrstuhl_ding.ogg", 0.75, false, fahrstuhl_bing);
+    playBGMusic("audio/fahrstuhl_ding.ogg", 0.75, false, fahrstuhl_bing);
 }
 
 let createOrigialFloors: any = () => {

@@ -59,6 +59,24 @@
                  "width":216.061412930823,
                  "x":35.0501064691808,
                  "y":159.92973034089
+                }, 
+                {
+                 "height":0,
+                 "id":5,
+                 "name":"bingFile",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"loadSound",
+                         "type":"string",
+                         "value":"audio\/fahrstuhl_ding.ogg"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":15,
+                 "y":14.5
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -199,7 +217,7 @@
          "y":0
         }],
  "nextlayerid":16,
- "nextobjectid":5,
+ "nextobjectid":6,
  "orientation":"orthogonal",
  "properties":[
         {
