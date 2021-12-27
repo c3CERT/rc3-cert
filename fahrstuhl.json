@@ -3,7 +3,7 @@
  "infinite":false,
  "layers":[
         {
-         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 113, 113, 113, 113, 0, 0, 0, 113, 113, 113, 113, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 177, 177, 177, 177, 0, 0, 0, 177, 177, 177, 177, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":7,
          "id":2,
          "name":"Floor",
@@ -15,7 +15,7 @@
          "y":0
         }, 
         {
-         "data":[0, 0, 69, 69, 69, 69, 69, 0, 0, 85, 85, 85, 85, 69, 0, 0, 0, 0, 0, 0, 69, 0, 0, 0, 0, 0, 0, 69, 0, 0, 69, 69, 69, 69, 69, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "data":[0, 0, 133, 133, 133, 133, 133, 0, 0, 149, 149, 149, 149, 133, 0, 0, 0, 0, 0, 0, 133, 0, 0, 0, 0, 0, 0, 133, 0, 0, 133, 133, 133, 133, 133, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":7,
          "id":1,
          "name":"Walls Background",
@@ -44,7 +44,7 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "height":193.62939303145,
+                 "height":110.630919403772,
                  "id":4,
                  "name":"fahrstuhlMenu",
                  "properties":[
@@ -56,9 +56,9 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":172.318974127047,
-                 "x":225.722275613847,
-                 "y":-17.2832268641529
+                 "width":216.061412930823,
+                 "x":35.0501064691808,
+                 "y":159.92973034089
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -67,43 +67,7 @@
          "y":0
         }, 
         {
-         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1026, 1026, 1026, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-         "height":7,
-         "id":12,
-         "name":"start",
-         "opacity":0,
-         "properties":[
-                {
-                 "name":"startLayer",
-                 "type":"bool",
-                 "value":true
-                }],
-         "type":"tilelayer",
-         "visible":true,
-         "width":7,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1025, 0, 0, 0, 0, 0, 0, 1025, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-         "height":7,
-         "id":13,
-         "name":"exitKlinik_0",
-         "opacity":0,
-         "properties":[
-                {
-                 "name":"exitUrl",
-                 "type":"string",
-                 "value":"klinik_0.json#startFahrstuhl"
-                }],
-         "type":"tilelayer",
-         "visible":true,
-         "width":7,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 1610612807, 0, 0, 0, 0, 0, 0, 1610612807, 0, 0, 0, 0, 0, 0, 1610612807, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 1610612871, 0, 0, 0, 0, 0, 0, 1610612871, 0, 0, 0, 0, 0, 0, 1610612871, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":7,
          "id":3,
          "name":"Walls Foreground",
@@ -127,7 +91,7 @@
          "y":0
         }, 
         {
-         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1025, 0, 0, 0, 0, 0, 0, 1025, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4161, 0, 0, 0, 0, 0, 0, 4161, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":7,
          "id":9,
          "name":"exitCert",
@@ -139,7 +103,7 @@
          "y":0
         }, 
         {
-         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1026, 0, 0, 0, 0, 0, 0, 1026, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4162, 0, 0, 0, 0, 0, 0, 4162, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":7,
          "id":8,
          "name":"startCert",
@@ -151,7 +115,7 @@
          "y":0
         }, 
         {
-         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 1028, 1028, 1028, 1028, 1028, 0, 1028, 0, 0, 0, 0, 1028, 0, 1028, 0, 0, 0, 0, 1028, 0, 0, 1028, 1028, 1028, 1028, 1028, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 4164, 4164, 4164, 4164, 4164, 0, 0, 0, 0, 0, 0, 4164, 0, 0, 0, 0, 0, 0, 4164, 0, 0, 4164, 4164, 4164, 4164, 4164, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":7,
          "id":5,
          "name":"collides",
@@ -161,34 +125,122 @@
          "width":7,
          "x":0,
          "y":0
+        }, 
+        {
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "height":7,
+         "id":12,
+         "name":"party_music",
+         "opacity":0,
+         "properties":[
+                {
+                 "name":"playAudio",
+                 "type":"string",
+                 "value":"https:\/\/cdn.c3voc.de\/c3lounge_native.mp3"
+                }],
+         "type":"tilelayer",
+         "visible":true,
+         "width":7,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "height":7,
+         "id":13,
+         "name":"bg_music",
+         "opacity":0,
+         "type":"tilelayer",
+         "visible":true,
+         "width":7,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "height":7,
+         "id":14,
+         "name":"party",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":7,
+         "x":0,
+         "y":0
         }],
- "nextlayerid":14,
+ "nextlayerid":15,
  "nextobjectid":5,
  "orientation":"orthogonal",
  "properties":[
         {
          "name":"script",
          "type":"string",
-         "value":"..\/dist\/script.js"
+         "value":"..\/dist\/fahrstuhl_script.js"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
  "tileheight":32,
  "tilesets":[
         {
-         "columns":16,
+         "columns":8,
          "firstgid":1,
+         "image":"tiles\/imgs\/tilesheets\/floortileset.png",
+         "imageheight":256,
+         "imagewidth":256,
+         "margin":0,
+         "name":"floortileset",
+         "spacing":0,
+         "tilecount":64,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":16,
+         "firstgid":65,
          "image":"tiles\/imgs\/tilesheets\/building21.png",
          "imageheight":2048,
          "imagewidth":512,
          "margin":0,
          "name":"building21",
-         "properties":[
-                {
-                 "name":"tilesetCopyright",
-                 "type":"string",
-                 "value":"deinkoks"
-                }],
+         "spacing":0,
+         "tilecount":1024,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":16,
+         "firstgid":1089,
+         "image":"tiles\/imgs\/tilesheets\/building_parts.png",
+         "imageheight":2048,
+         "imagewidth":512,
+         "margin":0,
+         "name":"building_parts",
+         "spacing":0,
+         "tilecount":1024,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":16,
+         "firstgid":2113,
+         "image":"tiles\/imgs\/tilesheets\/c3_deko.png",
+         "imageheight":2048,
+         "imagewidth":512,
+         "margin":0,
+         "name":"c3_deko",
+         "spacing":0,
+         "tilecount":1024,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":16,
+         "firstgid":3137,
+         "image":"tiles\/imgs\/tilesheets\/c3gelb.png",
+         "imageheight":2048,
+         "imagewidth":512,
+         "margin":0,
+         "name":"c3gelb",
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -196,31 +248,28 @@
         }, 
         {
          "columns":9,
-         "firstgid":1025,
+         "firstgid":4161,
          "image":"tiles\/imgs\/tilesheets\/mapUtilities.png",
          "imageheight":32,
          "imagewidth":288,
          "margin":0,
          "name":"mapUtilities",
-         "properties":[
-                {
-                 "name":"tilesetCopyright",
-                 "type":"string",
-                 "value":"CC-0"
-                }],
          "spacing":0,
          "tilecount":9,
          "tileheight":32,
-         "tiles":[
-                {
-                 "id":3,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }],
+         "tilewidth":32
+        }, 
+        {
+         "columns":16,
+         "firstgid":4170,
+         "image":"tiles\/imgs\/tilesheets\/furniture.png",
+         "imageheight":2048,
+         "imagewidth":512,
+         "margin":0,
+         "name":"furniture",
+         "spacing":0,
+         "tilecount":1024,
+         "tileheight":32,
          "tilewidth":32
         }],
  "tilewidth":32,
