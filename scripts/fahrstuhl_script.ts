@@ -23,6 +23,10 @@ let partyToggle: any = () => {
     }
     if (partyMode) {
         WA.room.showLayer('party');
+        WA.room.showLayer('party_2');
+        WA.room.showLayer('party_3');
+        WA.room.showLayer('party_4');
+        WA.room.showLayer('party_5');
 
         let floors: any = createOrigialFloors();
         floors.push({
@@ -38,6 +42,10 @@ let partyToggle: any = () => {
         togglePartyMusicTiles(true);
     } else {
         WA.room.hideLayer('party');
+        WA.room.hideLayer('party_2');
+        WA.room.hideLayer('party_3');
+        WA.room.hideLayer('party_4');
+        WA.room.hideLayer('party_5');
         togglePartyMusicTiles(false);
 
         fahrstuhl_menu = createAndOpenFahrtstuhl(createOrigialFloors());
@@ -76,7 +84,7 @@ let switchMap: any = (floorNumber: number) => {
         if (fahrstuhl_music != undefined) {
             fahrstuhl_music.stop();
         }
-        WA.nav.goToRoom("./" + mapNamingBase + floorNumber + ".json")
+        WA.nav.goToRoom("./" + mapNamingBase + floorNumber + ".json#startFahrstuhl")
     });
 };
 
