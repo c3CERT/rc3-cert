@@ -407,7 +407,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"audio\/unbedenkliche_RZ_sounds1.1.mp3"
+                 "value":"audio\/sr_sound_turbo_fan_knister.mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -496,6 +496,27 @@
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
+         "tiles":[
+                {
+                 "animation":[
+                        {
+                         "duration":200,
+                         "tileid":344
+                        }, 
+                        {
+                         "duration":200,
+                         "tileid":345
+                        }, 
+                        {
+                         "duration":200,
+                         "tileid":346
+                        }, 
+                        {
+                         "duration":200,
+                         "tileid":347
+                        }],
+                 "id":360
+                }],
          "tilewidth":32
         }, 
         {
