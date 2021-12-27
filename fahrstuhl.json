@@ -91,11 +91,35 @@
          "y":0
         }, 
         {
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3138, 0, 0, 0, 0, 0, 0, 3138, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "height":7,
+         "id":15,
+         "name":"start",
+         "opacity":0,
+         "properties":[
+                {
+                 "name":"startLayer",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"tilelayer",
+         "visible":true,
+         "width":7,
+         "x":0,
+         "y":0
+        }, 
+        {
          "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3137, 0, 0, 0, 0, 0, 0, 3137, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":7,
          "id":9,
          "name":"exitCert",
          "opacity":0,
+         "properties":[
+                {
+                 "name":"exitUrl",
+                 "type":"string",
+                 "value":"klinik_0.json#startFahrstuhl"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":7,
@@ -168,7 +192,7 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":15,
+ "nextlayerid":16,
  "nextobjectid":5,
  "orientation":"orthogonal",
  "properties":[
