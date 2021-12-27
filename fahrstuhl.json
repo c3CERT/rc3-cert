@@ -174,12 +174,6 @@
          "id":12,
          "name":"party_music",
          "opacity":0,
-         "properties":[
-                {
-                 "name":"playAudio",
-                 "type":"string",
-                 "value":"https:\/\/cdn.c3voc.de\/c3lounge_native.mp3"
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":7,
@@ -192,12 +186,6 @@
          "id":13,
          "name":"bg_music",
          "opacity":0,
-         "properties":[
-                {
-                 "name":"playAudio",
-                 "type":"string",
-                 "value":"audio\/bensound-theelevatorbossanova.mp3"
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":7,
