@@ -196,7 +196,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"https:\/\/cdn.c3voc.de\/c3lounge_native.mp3"
+                 "value":"audio\/bensound-theelevatorbossanova.mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -223,7 +223,7 @@
         {
          "name":"mapCopyright",
          "type":"string",
-         "value":"Used music:\nhttps:\/\/www.youtube.com\/watch?v=VBlFHuCzPgY\nhttps:\/\/www.youtube.com\/watch?v=7tWygwKCYgA"
+         "value":"Music: https:\/\/www.bensound.com"
         }, 
         {
          "name":"script",
