@@ -775,6 +775,12 @@
          "imageheight":2048,
          "imagewidth":512,
          "margin":0,
+           "properties":[
+         {
+          "name":"tilesetCopyright",
+          "type":"string",
+          "value":"CC-BY-SA cert.ccc.de"
+         }],
          "name":"food_and_drinks",
          "spacing":0,
          "tilecount":1024,
@@ -788,6 +794,12 @@
          "imageheight":2048,
          "imagewidth":512,
          "margin":0,
+                  "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-BY-SA cert.ccc.de"
+                }],
          "name":"sports_and_leisure",
          "spacing":0,
          "tilecount":1024,
