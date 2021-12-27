@@ -155,12 +155,35 @@
                  "height":105,
                  "id":1,
                  "name":"visitedBadge",
+                 "properties":[
+                        {
+                         "name":"getBadge",
+                         "type":"string",
+                         "value":"yHr24wGk2J7WtWgWhOgmxuLn6ipIs3frzbLOXsoKGsd94K2URq"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":73,
                  "x":458.5,
                  "y":2552.5
+                }, 
+                {
+                 "height":31,
+                 "id":2,
+                 "name":"handsCleanBadge",
+                 "properties":[
+                        {
+                         "name":"getBadge",
+                         "type":"string",
+                         "value":"FSNzqKKWWhl5SfpoStVT4H1zVrhaHEYMXGT78jvrjIB6arosYl"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":163.666666666667,
+                 "x":539.5,
+                 "y":1950.16666666667
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -546,7 +569,7 @@
          "y":0
         }],
  "nextlayerid":40,
- "nextobjectid":2,
+ "nextobjectid":3,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.7.2",

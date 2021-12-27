@@ -118,6 +118,34 @@
         }, 
         {
          "draworder":"topdown",
+         "id":29,
+         "name":"Badges",
+         "objects":[
+                {
+                 "height":431.3333,
+                 "id":1,
+                 "name":"infectedBadge",
+                 "properties":[
+                        {
+                         "name":"getBadge",
+                         "type":"string",
+                         "value":"R8UhFueaaq0xLixIFQ9dqzSinyi9XRbqZ68tAGQiRA9lM2Yx6c"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":1725.667,
+                 "x":544.1665,
+                 "y":586.33335
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
          "id":10,
          "name":"floorLayer",
          "objects":[],
@@ -355,8 +383,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":29,
- "nextobjectid":1,
+ "nextlayerid":30,
+ "nextobjectid":2,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.7.2",

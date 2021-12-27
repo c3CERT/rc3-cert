@@ -153,6 +153,23 @@
                  "width":59,
                  "x":673.5,
                  "y":608.5
+                }, 
+                {
+                 "height":31,
+                 "id":4,
+                 "name":"handsCleanBadge",
+                 "properties":[
+                        {
+                         "name":"getBadge",
+                         "type":"string",
+                         "value":"FSNzqKKWWhl5SfpoStVT4H1zVrhaHEYMXGT78jvrjIB6arosYl"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":55.667,
+                 "x":672.1665,
+                 "y":1644.5
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -454,7 +471,7 @@
          "y":0
         }],
  "nextlayerid":33,
- "nextobjectid":4,
+ "nextobjectid":5,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
