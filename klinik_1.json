@@ -107,12 +107,69 @@
                  "height":80,
                  "id":1,
                  "name":"getetestBadge",
+                 "properties":[
+                        {
+                         "name":"getBadge",
+                         "type":"string",
+                         "value":"I2fXXwNV1js1B3KuoE2TUdk4e4JxYfDbObcKwyJK2BBpV2bZup"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":193,
                  "x":1774,
                  "y":2175
+                }, 
+                {
+                 "height":59,
+                 "id":2,
+                 "name":"geimpftBadge",
+                 "properties":[
+                        {
+                         "name":"getBadge",
+                         "type":"string",
+                         "value":"xj3PUtMyFufOTrTZxWSfokUHKuFLaQbmK6pPVtZcne9FTqy2ay"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":157,
+                 "x":769.5,
+                 "y":608
+                }, 
+                {
+                 "height":59,
+                 "id":3,
+                 "name":"geboostertBadge",
+                 "properties":[
+                        {
+                         "name":"getBadge",
+                         "type":"string",
+                         "value":"xAjpBjzsi9o7NEHHWgJ2zoUUG9wx72YJWEgGPtBIYivRAguDUN"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":59,
+                 "x":673.5,
+                 "y":608.5
+                }, 
+                {
+                 "height":31,
+                 "id":4,
+                 "name":"handsCleanBadge",
+                 "properties":[
+                        {
+                         "name":"getBadge",
+                         "type":"string",
+                         "value":"FSNzqKKWWhl5SfpoStVT4H1zVrhaHEYMXGT78jvrjIB6arosYl"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":55.667,
+                 "x":672.1665,
+                 "y":1644.5
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -413,8 +470,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":32,
- "nextobjectid":2,
+ "nextlayerid":33,
+ "nextobjectid":5,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.7.2",

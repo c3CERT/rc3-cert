@@ -130,6 +130,51 @@
         }, 
         {
          "draworder":"topdown",
+         "id":28,
+         "name":"Badges",
+         "objects":[
+                {
+                 "height":31,
+                 "id":1,
+                 "name":"handsCleanBadge",
+                 "properties":[
+                        {
+                         "name":"getBadge",
+                         "type":"string",
+                         "value":"FSNzqKKWWhl5SfpoStVT4H1zVrhaHEYMXGT78jvrjIB6arosYl"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":61.667,
+                 "x":899.1665,
+                 "y":1326.5
+                }, 
+                {
+                 "height":86,
+                 "id":2,
+                 "name":"geduschtBadge",
+                 "properties":[
+                        {
+                         "name":"getBadge",
+                         "type":"string",
+                         "value":"V19ZHx41zsdiFbAk8FGsxTphrN2Rq6fOcNC0dvAsthY02lSRwL"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":31.667,
+                 "x":1058.1665,
+                 "y":829
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
          "id":10,
          "name":"floorLayer",
          "objects":[],
@@ -373,8 +418,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":28,
- "nextobjectid":1,
+ "nextlayerid":29,
+ "nextobjectid":3,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.7.2",

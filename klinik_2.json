@@ -118,6 +118,68 @@
         }, 
         {
          "draworder":"topdown",
+         "id":29,
+         "name":"Badges",
+         "objects":[
+                {
+                 "height":31,
+                 "id":1,
+                 "name":"handsCleanBadge",
+                 "properties":[
+                        {
+                         "name":"getBadge",
+                         "type":"string",
+                         "value":"FSNzqKKWWhl5SfpoStVT4H1zVrhaHEYMXGT78jvrjIB6arosYl"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":61.6669999999999,
+                 "x":898.1665,
+                 "y":1322.5
+                }, 
+                {
+                 "height":86,
+                 "id":2,
+                 "name":"geduschtBadge",
+                 "properties":[
+                        {
+                         "name":"getBadge",
+                         "type":"string",
+                         "value":"V19ZHx41zsdiFbAk8FGsxTphrN2Rq6fOcNC0dvAsthY02lSRwL"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":31.6669999999999,
+                 "x":1056.1665,
+                 "y":834
+                }, 
+                {
+                 "height":99.3333333333333,
+                 "id":3,
+                 "name":"infectedBadge",
+                 "properties":[
+                        {
+                         "name":"getBadge",
+                         "type":"string",
+                         "value":"R8UhFueaaq0xLixIFQ9dqzSinyi9XRbqZ68tAGQiRA9lM2Yx6c"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":63.667,
+                 "x":672.1665,
+                 "y":1661
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
          "id":10,
          "name":"floorLayer",
          "objects":[],
@@ -397,8 +459,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":29,
- "nextobjectid":1,
+ "nextlayerid":30,
+ "nextobjectid":4,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
