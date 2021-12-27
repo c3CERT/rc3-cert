@@ -405,9 +405,9 @@
          "opacity":0,
          "properties":[
                 {
-                 "name":"PlayAudio",
+                 "name":"playAudio",
                  "type":"string",
-                 "value":".\/audio\/unbedenkliche_RZ_sounds1.1.mp3"
+                 "value":"audio\/unbedenkliche_RZ_sounds1.1.mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
