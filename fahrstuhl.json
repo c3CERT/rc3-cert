@@ -178,7 +178,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"https:\/\/cdn.c3voc.de\/c3lounge_native.mp3"
+                 "value":"cdn.c3voc.de\/c3lounge_native.mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
