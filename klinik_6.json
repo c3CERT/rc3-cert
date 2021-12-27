@@ -385,7 +385,7 @@
          "name":"fahrstuhl kaputt",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":96,
          "x":0,
          "y":0
