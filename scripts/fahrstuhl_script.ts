@@ -8,7 +8,7 @@ let fahrstuhl_bing  : any = undefined;
 
 let partyMode:boolean = false;
 
-let sleep: any = (ms: number) => {
+let sleep: any = (ms: number) : Promise<any> => {
     return new Promise((resolve: any) =>{setTimeout(() => {resolve()}, ms)});
 }
 
@@ -19,7 +19,7 @@ let partyToggle: any = () => {
     }
     if (fahrstuhl_music != undefined) {
         fahrstuhl_music.stop();
-        fahrstuhl_music = undefined;
+        fahrstuhl_music = undefined; 
     }
     if (partyMode) {
         WA.room.showLayer('party');
@@ -45,22 +45,23 @@ let partyToggle: any = () => {
     partyMode = !partyMode;
 };
 
-let togglePartyMusicTiles: any = async (partyMode: boolean) => {
-    const map = await WA.room.getTiledMap();
-    let id_bg: number = 4166;
-    let id_party: number = 0;
-    if (partyMode){
-        id_party = 4166;
-        id_bg = 0;
-    } 
-    let tiles: any = [];
-    for (let i_height = 0; i_height < map.layers[0].height; i_height++) {
-        for (let i_width = 0; i_width < map.layers[0].width; i_width++) {
-            tiles.push({ x: i_width, y: i_height, tile: id_bg, layer: 'bg_music' });
-            tiles.push({ x: i_width, y: i_height, tile: id_party, layer: 'party_music' });
-        }
-    }    
-    WA.room.setTiles(tiles);
+let togglePartyMusicTiles: any = (partyMode: boolean) => {
+    WA.room.getTiledMap().then((map: any) => {
+        let id_bg: number = 4166;
+        let id_party: number = 0;
+        if (partyMode){
+            id_party = 4166;
+            id_bg = 0;
+        } 
+        let tiles: any = [];
+        for (let i_height = 0; i_height < map.layers[0].height; i_height++) {
+            for (let i_width = 0; i_width < map.layers[0].width; i_width++) {
+                tiles.push({ x: i_width, y: i_height, tile: id_bg, layer: 'bg_music' });
+                tiles.push({ x: i_width, y: i_height, tile: id_party, layer: 'party_music' });
+            }
+        }    
+        WA.room.setTiles(tiles);
+    });
 }
 
 let createAndOpenFahrtstuhl: any = (floors: any) => {
@@ -69,11 +70,14 @@ let createAndOpenFahrtstuhl: any = (floors: any) => {
     return fahrstuhl_menu;
 };
  
-let switchMap: any = async (floorNumber: number) => {
+let switchMap: any = (floorNumber: number) => {
     playBing();
-    await sleep(1000);
-    if (fahrstuhl_music) fahrstuhl_music.stop();
-    WA.nav.goToRoom("./" + mapNamingBase + floorNumber + ".json")
+    sleep(1000).then(() => {
+        if (fahrstuhl_music != undefined) {
+            fahrstuhl_music.stop();
+        }
+        WA.nav.goToRoom("./" + mapNamingBase + floorNumber + ".json")
+    });
 };
 
 let playBGMusic: any = (song: string, volume: number = 0.3, loop: boolean = true, obj: any = fahrstuhl_music) => {
@@ -109,11 +113,11 @@ let createOrigialFloors: any = () => {
     return floors;
 };
 
-(async () => {
-    await WA.onInit();
+WA.onInit().then(() => {
     partyToggle();
     const menu = WA.ui.registerMenuCommand('Party mode',
         {
             callback: partyToggle
-        }) 
-})();
+        }
+    ); 
+});
