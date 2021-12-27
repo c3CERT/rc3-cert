@@ -1,6 +1,6 @@
 /// <reference path="../node_modules/@workadventure/iframe-api-typings/iframe_api.d.ts" />
 
-const mapNamingBase:string = "Klinik_"
+const mapNamingBase:string = "klinik_"
 
 let fahrstuhl_menu  : any = undefined;
 let fahrstuhl_music : any = undefined;
@@ -95,7 +95,7 @@ let playBGMusic: any = (song: string, volume: number = 0.3, loop: boolean = true
 }
 
 let playBing: any = () => {
-    playBGMusic("https://c3cert.github.io/rc3-cert/audio/fahrstuhl_ding.ogg", 0.75, false, fahrstuhl_bing);
+    playBGMusic("./fahrstuhl_ding.ogg", 0.75, false, fahrstuhl_bing);
 }
 
 let createOrigialFloors: any = () => {
