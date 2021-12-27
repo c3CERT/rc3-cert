@@ -118,6 +118,12 @@
                  "height":59,
                  "id":2,
                  "name":"geimpftBadge",
+                 "properties":[
+                        {
+                         "name":"getBadge",
+                         "type":"string",
+                         "value":"xj3PUtMyFufOTrTZxWSfokUHKuFLaQbmK6pPVtZcne9FTqy2ay"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -129,6 +135,12 @@
                  "height":59,
                  "id":3,
                  "name":"geboostertBadge",
+                 "properties":[
+                        {
+                         "name":"getBadge",
+                         "type":"string",
+                         "value":"xAjpBjzsi9o7NEHHWgJ2zoUUG9wx72YJWEgGPtBIYivRAguDUN"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
