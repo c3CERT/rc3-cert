@@ -160,7 +160,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"cdn.c3voc.de\/c3lounge_native.mp3"
+                 "value":"https:\/\/cdn.c3voc.de\/c3lounge_native.mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -178,7 +178,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"cdn.c3voc.de\/c3lounge_native.mp3"
+                 "value":"https:\/\/cdn.c3voc.de\/c3lounge_native.mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
