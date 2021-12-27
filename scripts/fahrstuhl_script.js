@@ -11,8 +11,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 const mapNamingBase = "Klinik_";
 let fahrstuhl_menu = undefined;
-let fahrtsuhl_music = undefined;
-let fahrtsuhl_bing = undefined;
+let fahrstuhl_music = undefined;
+let fahrstuhl_bing = undefined;
 let partyMode = false;
 let sleep = (ms) => {
     return new Promise((resolve) => { setTimeout(() => { resolve(); }, ms); });
@@ -22,16 +22,15 @@ let partyToggle = () => {
         fahrstuhl_menu.close();
         fahrstuhl_menu = undefined;
     }
-    if (fahrtsuhl_music != undefined) {
-        fahrtsuhl_music.stop();
-        fahrtsuhl_music = undefined;
+    if (fahrstuhl_music != undefined) {
+        fahrstuhl_music.stop();
+        fahrstuhl_music = undefined;
     }
     if (partyMode) {
         WA.room.showLayer('party');
-        playBGMusic("audio/fahrstuhl_musik_party.ogg", 0.15);
         let floors = createOrigialFloors();
         floors.push({
-            label: "**** 23 ****",
+            label: "******* 23 *******",
             className: "success",
             callback: (popup) => {
                 switchMap(23);
@@ -39,14 +38,32 @@ let partyToggle = () => {
             }
         });
         fahrstuhl_menu = createAndOpenFahrtstuhl(floors);
+        togglePartyMusicTiles(true);
     }
     else {
         WA.room.hideLayer('party');
-        playBGMusic("audio/fahrstuhl_musik.ogg");
+        togglePartyMusicTiles(false);
         fahrstuhl_menu = createAndOpenFahrtstuhl(createOrigialFloors());
     }
     partyMode = !partyMode;
 };
+let togglePartyMusicTiles = (partyMode) => __awaiter(void 0, void 0, void 0, function* () {
+    const map = yield WA.room.getTiledMap();
+    let id_bg = 4166;
+    let id_party = 0;
+    if (partyMode) {
+        id_party = 4166;
+        id_bg = 0;
+    }
+    let tiles = [];
+    for (let i_height = 0; i_height < map.layers[0].height; i_height++) {
+        for (let i_width = 0; i_width < map.layers[0].width; i_width++) {
+            tiles.push({ x: i_width, y: i_height, tile: id_bg, layer: 'bg_music' });
+            tiles.push({ x: i_width, y: i_height, tile: id_party, layer: 'party_music' });
+        }
+    }
+    WA.room.setTiles(tiles);
+});
 let createAndOpenFahrtstuhl = (floors) => {
     let fahrstuhl_menu;
     fahrstuhl_menu = WA.ui.openPopup("fahrstuhlMenu", "Choose your floor:", floors);
@@ -55,38 +72,29 @@ let createAndOpenFahrtstuhl = (floors) => {
 let switchMap = (floorNumber) => __awaiter(void 0, void 0, void 0, function* () {
     playBing();
     yield sleep(1000);
-    fahrtsuhl_music.stop();
+    if (fahrstuhl_music)
+        fahrstuhl_music.stop();
     WA.nav.goToRoom("./" + mapNamingBase + floorNumber + ".json");
 });
-let playBGMusic = (song, volume = 0.3) => {
-    fahrtsuhl_music = WA.sound.loadSound(song);
+let playBGMusic = (song, volume = 0.3, loop = true, obj = fahrstuhl_music) => {
+    obj = WA.sound.loadSound(song);
     var config = {
         volume: volume,
-        loop: true,
+        loop: loop,
         rate: 1,
         detune: 1,
         delay: 0,
         seek: 0,
         mute: false
     };
-    fahrtsuhl_music.play(config);
+    obj.play(config);
 };
 let playBing = () => {
-    fahrtsuhl_bing = WA.sound.loadSound("audio/fahrstuhl_ding.ogg");
-    var config = {
-        volume: 0.75,
-        loop: false,
-        rate: 1,
-        detune: 1,
-        delay: 0,
-        seek: 0,
-        mute: false
-    };
-    fahrtsuhl_bing.play(config);
+    playBGMusic("https://c3cert.github.io/rc3-cert/audio/fahrstuhl_ding.ogg", 0.75, false, fahrstuhl_bing);
 };
 let createOrigialFloors = () => {
     let floors = [];
-    for (let index = 0; index < 8; index++) {
+    for (let index = 0; index < 10; index++) {
         floors.push({
             label: index + "",
             className: "normal",
