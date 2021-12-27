@@ -228,12 +228,12 @@
          "height":96,
          "id":34,
          "name":"npc_Audio_1",
-         "opacity":1,
+         "opacity":0,
          "properties":[
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"audio\/PflegeBrennt\/Betten.m4a"
+                 "value":"audio\/PflegeBrennt\/Betten2.mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -246,7 +246,7 @@
          "height":96,
          "id":35,
          "name":"npc_Audio_2",
-         "opacity":1,
+         "opacity":0,
          "properties":[
                 {
                  "name":"playAudio",
@@ -264,7 +264,7 @@
          "height":96,
          "id":36,
          "name":"npc_Audio_3",
-         "opacity":1,
+         "opacity":0,
          "properties":[
                 {
                  "name":"playAudio",
@@ -282,12 +282,12 @@
          "height":96,
          "id":37,
          "name":"npc_Audio_4",
-         "opacity":1,
+         "opacity":0,
          "properties":[
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"audio\/PflegeBrennt\/Keine Zeit Genervt.m4a"
+                 "value":"audio\/PflegeBrennt\/Keine_Zeit_Genervt.mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -300,7 +300,7 @@
          "height":96,
          "id":38,
          "name":"npc_Audio_5",
-         "opacity":1,
+         "opacity":0,
          "properties":[
                 {
                  "name":"playAudio",
@@ -318,7 +318,7 @@
          "height":96,
          "id":39,
          "name":"npc_Audio_6",
-         "opacity":1,
+         "opacity":0,
          "properties":[
                 {
                  "name":"playAudio",
@@ -336,12 +336,12 @@
          "height":96,
          "id":40,
          "name":"npc_Audio_7",
-         "opacity":1,
+         "opacity":0,
          "properties":[
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"audio\/PflegeBrennt\/Was wollen Sie.m4a"
+                 "value":"audio\/PflegeBrennt\/Was_wollen_Sie.mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
