@@ -443,6 +443,12 @@
          "id":26,
          "name":"exitFahrstuhl",
          "opacity":0,
+         "properties":[
+                {
+                 "name":"exitUrl",
+                 "type":"string",
+                 "value":"fahrstuhl.json"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":96,
