@@ -184,6 +184,23 @@
                  "width":163.666666666667,
                  "x":539.5,
                  "y":1950.16666666667
+                }, 
+                {
+                 "height":76.3333333333333,
+                 "id":3,
+                 "name":"pickedAboneBadge",
+                 "properties":[
+                        {
+                         "name":"getBadge",
+                         "type":"string",
+                         "value":"vjwlvsQdUL2zFL8Mrlvu5OxytdLGjE1h3imyLWlpv7i02EZ3fu"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":62.3336666666664,
+                 "x":1712,
+                 "y":632
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -569,7 +586,7 @@
          "y":0
         }],
  "nextlayerid":40,
- "nextobjectid":3,
+ "nextobjectid":4,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
