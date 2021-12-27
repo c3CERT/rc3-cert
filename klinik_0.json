@@ -152,7 +152,7 @@
          "name":"Badges",
          "objects":[
                 {
-                 "height":105,
+                 "height":135,
                  "id":1,
                  "name":"visitedBadge",
                  "properties":[
@@ -164,7 +164,7 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":73,
+                 "width":149,
                  "x":458.5,
                  "y":2552.5
                 }, 
