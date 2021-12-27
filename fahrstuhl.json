@@ -176,6 +176,11 @@
          "name":"mapCopyright",
          "type":"string",
          "value":"Used music:\nhttps:\/\/www.youtube.com\/watch?v=VBlFHuCzPgY\nhttps:\/\/www.youtube.com\/watch?v=7tWygwKCYgA"
+        }, 
+        {
+         "name":"script",
+         "type":"string",
+         "value":"https:\/\/static.rc3.world\/scripts\/cert_fahrstuhl\/script.js"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
