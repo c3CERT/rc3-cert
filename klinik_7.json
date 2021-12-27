@@ -689,6 +689,12 @@
          "imagewidth":256,
          "margin":0,
          "name":"IT",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"deinKoks, CC0"
+                }],
          "spacing":0,
          "tilecount":24,
          "tileheight":32,
