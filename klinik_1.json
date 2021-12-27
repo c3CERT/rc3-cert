@@ -497,7 +497,7 @@
          "height":96,
          "id":34,
          "name":"Getestet_PopUp",
-         "opacity":0,
+         "opacity":1,
          "type":"tilelayer",
          "visible":true,
          "width":96,
@@ -528,7 +528,7 @@
         {
          "name":"popup_rc3_getestet",
          "type":"string",
-         "value":"{\"zone\": \"Getestet_PopUp\",\"popupArea\": \"popupRectangle2\", \"text\": \"Wir w\u00fcnschen einen unterhaltsamen Besuch, die Testbescheinigung wird in deine Badgeverwaltung zugestellt.\",  \"disbalePlayerActions\": false}"
+         "value":"{\"zone\": \"Getestet_PopUp\",\"popupArea\": \"popupRectangle2\", \"text\": \"Wir w\u00fcnschen einen unterhaltsamen Besuch, die Testbescheinigung wird in deine Badgeverwaltung zugestellt.\", \"buttonLabel\": \"Hatschi!\", \"disbalePlayerActions\": false}"
         }, 
         {
          "name":"script",
