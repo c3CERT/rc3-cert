@@ -113,6 +113,28 @@
                  "width":193,
                  "x":1774,
                  "y":2175
+                }, 
+                {
+                 "height":59,
+                 "id":2,
+                 "name":"geimpftBadge",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":157,
+                 "x":769.5,
+                 "y":608
+                }, 
+                {
+                 "height":59,
+                 "id":3,
+                 "name":"geboostertBadge",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":59,
+                 "x":673.5,
+                 "y":608.5
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -414,7 +436,7 @@
          "y":0
         }],
  "nextlayerid":32,
- "nextobjectid":2,
+ "nextobjectid":4,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
