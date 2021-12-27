@@ -137,6 +137,12 @@
                  "y":608.5
                 }],
          "opacity":1,
+         "properties":[
+                {
+                 "name":"getBadge",
+                 "type":"string",
+                 "value":"I2fXXwNV1js1B3KuoE2TUdk4e4JxYfDbObcKwyJK2BBpV2bZup"
+                }],
          "type":"objectgroup",
          "visible":true,
          "x":0,
@@ -435,7 +441,7 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":32,
+ "nextlayerid":33,
  "nextobjectid":4,
  "orientation":"orthogonal",
  "renderorder":"right-down",
