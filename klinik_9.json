@@ -310,7 +310,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"klinik_8.json#startKlinik_Dach"
+                 "value":"klinik_8.json#startKlinik_9"
                 }],
          "type":"tilelayer",
          "visible":true,
