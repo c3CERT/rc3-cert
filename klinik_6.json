@@ -444,7 +444,7 @@
         {
          "name":"popup_rc3_whiteroom",
          "type":"string",
-         "value":"{\n\"zone\": \"WhiteRoom_Disclaimer\",\n\"popupArea\": \"WhiteRoomPopup\",\n\"text\": \"DISCLAIMER:\\n Der White Room ist ein sensorisch \u00e4u\u00dferst belastender Ort. Bitte bedenke dies, bevor du ihn betrittst.\\n \nBetreten auf eigene Gefahr!\",\n\"buttonLabel\": \"OKAY\",\n\"disbalePlayerActions\": true\n}"
+         "value":"{\n\"zone\": \"WhiteRoom_Disclaimer\",\n\"popupArea\": \"WhiteRoomPopup\",\n\"text\": \"DISCLAIMER: Der White Room ist ein sensorisch \u00e4u\u00dferst belastender Ort. Bitte bedenke dies, bevor du ihn betrittst. Betreten auf eigene Gefahr!\",\n\"buttonLabel\": \"OKAY\",\n\"disbalePlayerActions\": true\n}"
         }, 
         {
          "name":"script",
