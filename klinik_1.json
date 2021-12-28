@@ -170,6 +170,23 @@
                  "width":62.167,
                  "x":672.1665,
                  "y":1644.5
+                }, 
+                {
+                 "height":60.6666666666667,
+                 "id":17,
+                 "name":"merciBadge",
+                 "properties":[
+                        {
+                         "name":"getBadge",
+                         "type":"string",
+                         "value":"4vE6jAFWMuypXQqaUShpRpkSAv0cyS6QEWI9l9zVUPS4Zbu02t"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32.6666666666665,
+                 "x":1855.33333333333,
+                 "y":674
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -627,7 +644,7 @@
          "y":0
         }],
  "nextlayerid":40,
- "nextobjectid":17,
+ "nextobjectid":18,
  "orientation":"orthogonal",
  "properties":[
         {
