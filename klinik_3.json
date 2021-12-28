@@ -295,7 +295,7 @@
          "height":96,
          "id":27,
          "name":"exitCube",
-         "opacity":1,
+         "opacity":0,
          "properties":[
                 {
                  "name":"exitUrl",
