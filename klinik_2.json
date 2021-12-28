@@ -213,8 +213,8 @@
                  "type":"",
                  "visible":true,
                  "width":113.6667,
-                 "x":1092.16665,
-                 "y":818.833333333333
+                 "x":1094.16665,
+                 "y":825.833333333333
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -510,6 +510,11 @@
          "name":"popup_rc3_infected",
          "type":"string",
          "value":"{\"zone\": \"Infected_PopUp\",\"popupArea\": \"popupRectangle3\", \"text\": \"Ups, hier scheint das Desi-Team noch nicht gewesen zu sein. Du hast dir wohl etwas eingefangen...\", \"buttonLabel\": \"Uff\", \"disbalePlayerActions\": false}"
+        }, 
+        {
+         "name":"script",
+         "type":"string",
+         "value":"https:\/\/static.rc3.world\/scripts\/cert_popup\/script.js"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
