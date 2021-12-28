@@ -183,48 +183,48 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "height":148,
+                 "height":63.3333333333333,
                  "id":5,
                  "name":"popupRectangle1",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":309,
-                 "x":941,
-                 "y":552
+                 "width":157.666666666667,
+                 "x":769,
+                 "y":609.333333333333
                 }, 
                 {
-                 "height":194,
+                 "height":82,
                  "id":8,
                  "name":"popupRectangle2",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":387,
-                 "x":1984,
-                 "y":2011
+                 "width":193.666666666667,
+                 "x":1773.33333333333,
+                 "y":2175.66666666667
                 }, 
                 {
-                 "height":94,
+                 "height":41,
                  "id":11,
                  "name":"popupRectangle3",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":180.666666666667,
-                 "x":739.333333333333,
-                 "y":1570
+                 "width":64.166666666667,
+                 "x":671.333333333333,
+                 "y":1634.5
                 }, 
                 {
-                 "height":140.666666666667,
+                 "height":65.3333333333336,
                  "id":13,
                  "name":"popupRectangle4",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":222.666666666667,
-                 "x":739.333333333333,
-                 "y":546
+                 "width":59.3333333333336,
+                 "x":673.333333333333,
+                 "y":606.666666666667
                 }],
          "opacity":1,
          "type":"objectgroup",

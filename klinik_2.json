@@ -182,7 +182,40 @@
          "draworder":"topdown",
          "id":10,
          "name":"floorLayer",
-         "objects":[],
+         "objects":[
+                {
+                 "height":126,
+                 "id":7,
+                 "name":"popupRectangle3",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":92.6667,
+                 "x":658.66665,
+                 "y":1654.5
+                }, 
+                {
+                 "height":32,
+                 "id":5,
+                 "name":"popupRectangle2",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":65.6667,
+                 "x":895.499983333333,
+                 "y":1321.66666666667
+                }, 
+                {
+                 "height":60,
+                 "id":6,
+                 "name":"popupRectangle1",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":33.6667,
+                 "x":1054.16665,
+                 "y":861.333333333333
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -460,8 +493,24 @@
          "y":0
         }],
  "nextlayerid":30,
- "nextobjectid":4,
+ "nextobjectid":8,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"popup_rc3_geduscht",
+         "type":"string",
+         "value":"{\"zone\": \"Geduscht_PopUp\",\"popupArea\": \"popupRectangle1\", \"text\": \"Herzlichen Gl\u00fcckwunsch zum G++, sie sind nun geduscht.\", \"buttonLabel\": \"Fresh!\", \"disbalePlayerActions\": false}"
+        }, 
+        {
+         "name":"popup_rc3_handsclean",
+         "type":"string",
+         "value":"{\"zone\": \"Handsclean_PopUp\",\"popupArea\": \"popupRectangle2\", \"text\": \"H\u00e4ndewaschen nicht vergessen!\", \"buttonLabel\": \"Klar doch\", \"disbalePlayerActions\": false}"
+        }, 
+        {
+         "name":"popup_rc3_infected",
+         "type":"string",
+         "value":"{\"zone\": \"Infected_PopUp\",\"popupArea\": \"popupRectangle3\", \"text\": \"Ups, hier scheint das Desi-Team noch nicht gewesen zu sein. Du hast dir wohl etwas eingefangen...\", \"buttonLabel\": \"Uff\", \"disbalePlayerActions\": false}"
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
  "tileheight":32,
