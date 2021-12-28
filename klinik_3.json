@@ -295,7 +295,13 @@
          "height":96,
          "id":27,
          "name":"exitCube",
-         "opacity":0,
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"exitUrl",
+                 "type":"string",
+                 "value":"cube\/0.json"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":96,
