@@ -1,1 +1,4 @@
-{"rocket_channel" : "#cert-intern"}
+{
+	"rocket_channel" : "#cert-intern",
+	"only_failed" : true
+}
