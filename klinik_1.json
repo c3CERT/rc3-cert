@@ -738,7 +738,7 @@
         {
          "name":"popup_rc3_rule7",
          "type":"string",
-         "value":"{\"zone\": \"Rule7_PopUp\",\"popupArea\": \"popupRectangle6\", \"text\": \"Alter + Serum \u2212 Harnstoff = Lasixdosis \nhttps:\/\/de.wikipedia.org\/wiki\/House_of_God\", \"buttonLabel\": \"Aha!\", \"disbalePlayerActions\": false}"
+         "value":"{\"zone\": \"Rule7_PopUp\",\"popupArea\": \"popupRectangle6\", \"text\": \"Alter + Serum \u2212 Harnstoff = Lasixdosis (siehe House of God)\", \"buttonLabel\": \"Aha!\", \"disbalePlayerActions\": false}"
         }, 
         {
          "name":"popup_rc3_who",
