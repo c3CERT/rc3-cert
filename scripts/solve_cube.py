@@ -21,7 +21,7 @@ def __get_cube(file_url):
 def __is_exit_cube(data, jsondata):
     if data.count('../audio/cube_introduction.mp3') > 0:
         return False
-    if data.count('basement.json') == 0:
+    if data.count('klinik_1.json') == 0:
         return False
     return True
 
