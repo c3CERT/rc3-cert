@@ -195,26 +195,26 @@
                  "y":1654.5
                 }, 
                 {
-                 "height":32,
+                 "height":81,
                  "id":5,
                  "name":"popupRectangle2",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":65.6667,
-                 "x":895.499983333333,
-                 "y":1321.66666666667
+                 "width":153.1667,
+                 "x":970.999983333333,
+                 "y":1265.16666666667
                 }, 
                 {
-                 "height":60,
+                 "height":68.5,
                  "id":6,
                  "name":"popupRectangle1",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":33.6667,
-                 "x":1054.16665,
-                 "y":861.333333333333
+                 "width":113.6667,
+                 "x":1092.16665,
+                 "y":818.833333333333
                 }],
          "opacity":1,
          "type":"objectgroup",

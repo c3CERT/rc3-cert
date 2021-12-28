@@ -183,48 +183,48 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "height":63.3333333333333,
+                 "height":103.333333333333,
                  "id":5,
                  "name":"popupRectangle1",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":157.666666666667,
-                 "x":769,
-                 "y":609.333333333333
+                 "width":223.666666666667,
+                 "x":940,
+                 "y":557.833333333333
                 }, 
                 {
-                 "height":82,
+                 "height":114,
                  "id":8,
                  "name":"popupRectangle2",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":193.666666666667,
-                 "x":1773.33333333333,
-                 "y":2175.66666666667
+                 "width":222.666666666667,
+                 "x":1977.33333333333,
+                 "y":2114.66666666667
                 }, 
                 {
-                 "height":41,
+                 "height":79,
                  "id":11,
                  "name":"popupRectangle3",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":64.166666666667,
-                 "x":671.333333333333,
-                 "y":1634.5
+                 "width":155.666666666667,
+                 "x":750.333333333333,
+                 "y":1590
                 }, 
                 {
-                 "height":65.3333333333336,
+                 "height":114.333333333334,
                  "id":13,
                  "name":"popupRectangle4",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":59.3333333333336,
-                 "x":673.333333333333,
-                 "y":606.666666666667
+                 "width":238.333333333334,
+                 "x":762.333333333333,
+                 "y":556.666666666667
                 }],
          "opacity":1,
          "type":"objectgroup",
