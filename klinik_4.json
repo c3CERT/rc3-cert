@@ -148,6 +148,12 @@
                  "height":63,
                  "id":4,
                  "name":"lifeanddeathBadge",
+                 "properties":[
+                        {
+                         "name":"getBadge",
+                         "type":"string",
+                         "value":"Wo8TXDcQqrrOofHLKqCTxUf43GRvv4ESyW63xqeaOSmA1p9aSD"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
