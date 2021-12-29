@@ -638,16 +638,6 @@
  "orientation":"orthogonal",
  "properties":[
         {
-         "name":"mapDescription",
-         "type":"string",
-         "value":"The CERT Clinic Level 5"
-        }, 
-        {
-         "name":"mapName",
-         "type":"string",
-         "value":"Klinik Level 5"
-        }, 
-        {
          "name":"popup_rc3_rule5",
          "type":"string",
          "value":"{\"zone\": \"Rule5_PopUp\",\"popupArea\": \"popupRule5\", \"text\": \"Zuerst an Verlegung denken! (siehe Samuel Shem - House of God)\", \"buttonLabel\": \"Aha!\", \"disbalePlayerActions\": false}"
@@ -888,6 +878,16 @@
          "spacing":0,
          "tilecount":9,
          "tileheight":32,
+         "tiles":[
+                {
+                 "id":3,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }],
          "tilewidth":32
         }, 
         {

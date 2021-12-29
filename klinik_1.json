@@ -752,16 +752,6 @@
  "orientation":"orthogonal",
  "properties":[
         {
-         "name":"mapDescription",
-         "type":"string",
-         "value":"The CERT Clinic Level 1"
-        }, 
-        {
-         "name":"mapName",
-         "type":"string",
-         "value":"Klinik Level 1"
-        }, 
-        {
          "name":"popup_rc3_booster",
          "type":"string",
          "value":"{\"zone\": \"Booster_PopUp\",\"popupArea\": \"popupRectangle4\", \"text\": \"Aller guten Dinge sind drei. Hier ist dein neuster Security Patch f\u00fcrs Immunsystem!\", \"buttonLabel\": \"Yessssss!\", \"disbalePlayerActions\": false}"
@@ -974,6 +964,16 @@
          "spacing":0,
          "tilecount":9,
          "tileheight":32,
+         "tiles":[
+                {
+                 "id":3,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }],
          "tilewidth":32
         }, 
         {

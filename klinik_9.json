@@ -464,16 +464,6 @@
  "orientation":"orthogonal",
  "properties":[
         {
-         "name":"mapDescription",
-         "type":"string",
-         "value":"The CERT Clinic Level 9"
-        }, 
-        {
-         "name":"mapName",
-         "type":"string",
-         "value":"Klinik Level 9"
-        }, 
-        {
          "name":"popup_rc3_beedoo",
          "type":"string",
          "value":"{\n\"zone\": \"beedoo_PopUp\",\n\"popupArea\": \"beedoo_rectangle\",\n\"text\": \"BEEEEEEEDOOOOOOOOOOO\",\n\"buttonLabel\": \"BEEDOO!!\",\n\"disbalePlayerActions\": true\n}"
@@ -656,6 +646,16 @@
          "spacing":0,
          "tilecount":9,
          "tileheight":32,
+         "tiles":[
+                {
+                 "id":3,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }],
          "tilewidth":32
         }, 
         {

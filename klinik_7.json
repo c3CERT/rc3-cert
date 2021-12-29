@@ -461,16 +461,6 @@
  "orientation":"orthogonal",
  "properties":[
         {
-         "name":"mapDescription",
-         "type":"string",
-         "value":"The CERT Clinic Level 7"
-        }, 
-        {
-         "name":"mapName",
-         "type":"string",
-         "value":"Klinik Level 7"
-        }, 
-        {
          "name":"popup_rc3_cube",
          "type":"string",
          "value":"{\"zone\": \"cube_PopUp\",\"popupArea\": \"popupCubeRectangle\", \"text\": \"You solved the box, we came. Now you must come with us, taste our pleasures.\", \"buttonLabel\": \"Uiiii!\", \"disbalePlayerActions\": false}"
@@ -674,6 +664,16 @@
          "spacing":0,
          "tilecount":9,
          "tileheight":32,
+         "tiles":[
+                {
+                 "id":3,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }],
          "tilewidth":32
         }, 
         {

@@ -190,17 +190,6 @@
  "nextlayerid":15,
  "nextobjectid":1,
  "orientation":"orthogonal",
- "properties":[
-        {
-         "name":"mapDescription",
-         "type":"string",
-         "value":"The CERT Clinic Fireescape 2\n"
-        }, 
-        {
-         "name":"mapName",
-         "type":"string",
-         "value":"Feuertreppe - 2-23-3"
-        }],
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
  "tileheight":32,
@@ -260,6 +249,16 @@
          "spacing":0,
          "tilecount":9,
          "tileheight":32,
+         "tiles":[
+                {
+                 "id":3,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }],
          "tilewidth":32
         }, 
         {

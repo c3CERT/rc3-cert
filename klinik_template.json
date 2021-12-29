@@ -256,22 +256,6 @@
  "nextlayerid":22,
  "nextobjectid":1,
  "orientation":"orthogonal",
- "properties":[
-        {
-         "name":"mapDescription",
-         "type":"string",
-         "value":"The CERT Clinic Template"
-        }, 
-        {
-         "name":"mapName",
-         "type":"string",
-         "value":"Klinik Level ?"
-        }, 
-        {
-         "name":"script",
-         "type":"string",
-         "value":"https:\/\/static.rc3.world\/scripts\/cert_popup\/script.js"
-        }],
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
  "tileheight":32,
