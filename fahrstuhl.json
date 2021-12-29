@@ -238,9 +238,19 @@
          "value":"Music: https:\/\/www.bensound.com"
         }, 
         {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"The CERT Clinic Elevator"
+        }, 
+        {
+         "name":"mapName",
+         "type":"string",
+         "value":"Fahrstuhl"
+        }, 
+        {
          "name":"script",
          "type":"string",
-         "value":"https:\/\/static.rc3.world\/scripts\/cert_fahrstuhl\/script.js"
+         "value":"https:\/\/static.rc3.world\/scripts\/cert_popup\/script.js"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
@@ -330,16 +340,6 @@
          "spacing":0,
          "tilecount":9,
          "tileheight":32,
-         "tiles":[
-                {
-                 "id":3,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }],
          "tilewidth":32
         }, 
         {

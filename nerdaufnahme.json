@@ -362,6 +362,17 @@
  "nextlayerid":46,
  "nextobjectid":9,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"The CERT Leipzig Nerdaufnahme"
+        }, 
+        {
+         "name":"mapName",
+         "type":"string",
+         "value":"CERT Nerdaufnahme"
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
  "tileheight":32,
@@ -776,16 +787,6 @@
          "spacing":0,
          "tilecount":9,
          "tileheight":32,
-         "tiles":[
-                {
-                 "id":3,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }],
          "tilewidth":32
         }],
  "tilewidth":32,

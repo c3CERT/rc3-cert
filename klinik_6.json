@@ -506,6 +506,16 @@
  "orientation":"orthogonal",
  "properties":[
         {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"The CERT Clinic Level 6"
+        }, 
+        {
+         "name":"mapName",
+         "type":"string",
+         "value":"Klinik Level 6"
+        }, 
+        {
          "name":"popup_rc3_rule13",
          "type":"string",
          "value":"{\"zone\": \"Rule13_PopUp\",\"popupArea\": \"Rule13_PopUp\", \"text\": \"Die beste \u00e4rztliche Betreuung besteht darin, so wenig wie m\u00f6glich zu tun, davon aber reichlich. (siehe Samuel Shem - House of God)\", \"buttonLabel\": \"Interessant!\", \"disbalePlayerActions\": false}"
@@ -726,16 +736,6 @@
          "spacing":0,
          "tilecount":9,
          "tileheight":32,
-         "tiles":[
-                {
-                 "id":3,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }],
          "tilewidth":32
         }, 
         {

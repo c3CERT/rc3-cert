@@ -521,6 +521,16 @@
  "orientation":"orthogonal",
  "properties":[
         {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"The CERT Clinic Level 4"
+        }, 
+        {
+         "name":"mapName",
+         "type":"string",
+         "value":"Klinik Level 4"
+        }, 
+        {
          "name":"popup_rc3_infected",
          "type":"string",
          "value":"{\"zone\": \"Infected_PopUp\",\"popupArea\": \"popupRectangle3\", \"text\": \"Ups, hier scheint das Desi-Team noch nicht gewesen zu sein. Du hast dir wohl etwas eingefangen...\", \"buttonLabel\": \"Uff\", \"disbalePlayerActions\": false}"
@@ -786,16 +796,6 @@
          "spacing":0,
          "tilecount":9,
          "tileheight":32,
-         "tiles":[
-                {
-                 "id":3,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }],
          "tilewidth":32
         }, 
         {

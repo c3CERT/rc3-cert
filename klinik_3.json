@@ -510,6 +510,16 @@
  "orientation":"orthogonal",
  "properties":[
         {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"The CERT Clinic Level 3"
+        }, 
+        {
+         "name":"mapName",
+         "type":"string",
+         "value":"Klinik Level 3"
+        }, 
+        {
          "name":"popup_rc3_geduscht",
          "type":"string",
          "value":"{\"zone\": \"Geduscht_PopUp\",\"popupArea\": \"popupRectangle1\", \"text\": \"Herzlichen Gl\u00fcckwunsch zum G++, sie sind nun geduscht.\", \"buttonLabel\": \"Fresh!\", \"disbalePlayerActions\": false}"
@@ -735,16 +745,6 @@
          "spacing":0,
          "tilecount":9,
          "tileheight":32,
-         "tiles":[
-                {
-                 "id":3,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }],
          "tilewidth":32
         }, 
         {
