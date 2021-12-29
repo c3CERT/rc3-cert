@@ -638,7 +638,7 @@
          "height":96,
          "id":6,
          "name":"collides",
-         "opacity":0.35,
+         "opacity":0,
          "type":"tilelayer",
          "visible":true,
          "width":96,
