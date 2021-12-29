@@ -750,7 +750,17 @@
  "nextobjectid":12,
  "orientation":"orthogonal",
  "properties":[
+		{
+         "name":"mapDescription",
+         "type":"string",
+         "value":"The CERT Clinic Level 0"
+        }, 
         {
+         "name":"mapName",
+         "type":"string",
+         "value":"Klinik Level 0"
+        }, 
+		{
          "name":"popup_rc3_bones",
          "type":"string",
          "value":"{\"zone\": \"bones_PopUp\",\"popupArea\": \"bones_rectangle\", \"text\": \"Jupps, das sind Knochen!\", \"buttonLabel\": \"St\u00fcmmt.\", \"disbalePlayerActions\": false}"

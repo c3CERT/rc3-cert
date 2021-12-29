@@ -214,6 +214,17 @@
  "nextlayerid":37,
  "nextobjectid":3,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"The CERT Leipzig Hackcenter, empty"
+        }, 
+        {
+         "name":"mapName",
+         "type":"string",
+         "value":"CERT Hackcenter"
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
  "tileheight":32,

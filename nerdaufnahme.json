@@ -362,6 +362,17 @@
  "nextlayerid":46,
  "nextobjectid":9,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"The CERT Leipzig Nerdaufnahme"
+        }, 
+        {
+         "name":"mapName",
+         "type":"string",
+         "value":"CERT Nerdaufnahme"
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
  "tileheight":32,

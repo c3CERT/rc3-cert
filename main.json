@@ -285,6 +285,17 @@
  "nextlayerid":21,
  "nextobjectid":1,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"The CERT Main and Disclaimer Map"
+        }, 
+        {
+         "name":"mapName",
+         "type":"string",
+         "value":"CERT Main"
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
  "tileheight":32,

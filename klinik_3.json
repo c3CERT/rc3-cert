@@ -509,6 +509,16 @@
  "nextobjectid":6,
  "orientation":"orthogonal",
  "properties":[
+		{
+         "name":"mapDescription",
+         "type":"string",
+         "value":"The CERT Clinic Level 3"
+        }, 
+        {
+         "name":"mapName",
+         "type":"string",
+         "value":"Klinik Level 3"
+        }, 
         {
          "name":"popup_rc3_geduscht",
          "type":"string",

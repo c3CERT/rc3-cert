@@ -637,6 +637,16 @@
  "nextobjectid":2,
  "orientation":"orthogonal",
  "properties":[
+		{
+         "name":"mapDescription",
+         "type":"string",
+         "value":"The CERT Clinic Level 5"
+        }, 
+        {
+         "name":"mapName",
+         "type":"string",
+         "value":"Klinik Level 5"
+        }, 
         {
          "name":"popup_rc3_rule5",
          "type":"string",

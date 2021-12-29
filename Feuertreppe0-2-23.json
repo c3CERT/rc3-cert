@@ -190,6 +190,17 @@
  "nextlayerid":14,
  "nextobjectid":1,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"The CERT Clinic fireescape level 1"
+        }, 
+        {
+         "name":"mapName",
+         "type":"string",
+         "value":"Feuertreppe-0-2-23"
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
  "tileheight":32,

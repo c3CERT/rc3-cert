@@ -411,6 +411,11 @@
  "orientation":"orthogonal",
  "properties":[
         {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"The CERT Clinic Level 8"
+        }, 
+        {
          "name":"mapName",
          "type":"string",
          "value":"Klinik Level 8"
