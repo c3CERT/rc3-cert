@@ -136,6 +136,17 @@
  "nextlayerid":30,
  "nextobjectid":9,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"cube"
+        }, 
+        {
+         "name":"mapName",
+         "type":"string",
+         "value":"cube"
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
  "tileheight":32,

@@ -10,9 +10,9 @@ import os
 import string
 import solve_cube
 
-ROOMS = 128
-MIN_PATH_LENGTH = 40
-PATH_LENGTH = 50
+ROOMS = 192
+MIN_PATH_LENGTH = 50
+PATH_LENGTH = 70
 OUT_DIR = "cube/"
 TEMPLATES = ["cube_assets/quadrat_t1.json",
              "cube_assets/quadrat_t2.json",

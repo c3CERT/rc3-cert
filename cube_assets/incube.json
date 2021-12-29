@@ -157,12 +157,6 @@
          "id":7,
          "name":"override",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"depth",
-                 "type":"int",
-                 "value":3
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":9,
@@ -177,6 +171,16 @@
          "name":"awardBadge",
          "type":"string",
          "value":"gDQR4fRtwApeILYk3ok7iqi5zAdbe2ehNngUmczMOTIdegU6iV"
+        }, 
+        {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"cube"
+        }, 
+        {
+         "name":"mapName",
+         "type":"string",
+         "value":"cube"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
