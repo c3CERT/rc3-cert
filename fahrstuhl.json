@@ -101,9 +101,9 @@
          "height":7,
          "id":14,
          "name":"party",
-         "opacity":0,
+         "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":7,
          "x":0,
          "y":0
@@ -236,7 +236,7 @@
          "name":"mapCopyright",
          "type":"string",
          "value":"Music: https:\/\/www.bensound.com"
-        },
+        }, 
         {
          "name":"mapDescription",
          "type":"string",
@@ -246,7 +246,7 @@
          "name":"mapName",
          "type":"string",
          "value":"Fahrstuhl"
-        },  
+        }, 
         {
          "name":"script",
          "type":"string",
