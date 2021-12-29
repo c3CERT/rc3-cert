@@ -3,7 +3,7 @@
 WA.onInit().then(() => {
     WA.room.onEnterLayer("zone_random_portal").subscribe(() => {
         let random_number: number = Math.floor(Math.random() * all_exists.length);
-        WA.nav.goToRoom("@/rc3_21/" + all_exists[random_number] + "/main.json");
+        WA.nav.goToRoom("/@/rc3_21/" + all_exists[random_number] + "/main.json");
         // WA.nav.goToRoom(all_exists[random_number]);
     });
 });
