@@ -108,7 +108,24 @@
          "draworder":"topdown",
          "id":3,
          "name":"floorLayer",
-         "objects":[],
+         "objects":[
+                {
+                 "height":208.030927165958,
+                 "id":9,
+                 "name":"cyberBadge",
+                 "properties":[
+                        {
+                         "name":"getBadge",
+                         "type":"string",
+                         "value":"Q3lfcjEn8WdYhx4iIvmOrxi7fFMfWSZ8kfY9VyFoF0ISjo6gt3"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":243.128808142338,
+                 "x":26.9854885621631,
+                 "y":28.3794704632108
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -128,7 +145,7 @@
          "y":0
         }],
  "nextlayerid":32,
- "nextobjectid":9,
+ "nextobjectid":10,
  "orientation":"orthogonal",
  "properties":[
         {
