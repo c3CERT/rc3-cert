@@ -68,6 +68,12 @@
          "id":21,
          "name":"exitCube",
          "opacity":0,
+         "properties":[
+                {
+                 "name":"exitUrl",
+                 "type":"string",
+                 "value":"cube\/0.json"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":41,
