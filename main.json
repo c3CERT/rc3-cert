@@ -337,15 +337,6 @@
          "tileheight":32,
          "tiles":[
                 {
-                 "id":0,
-                 "properties":[
-                        {
-                         "name":"exitUrl",
-                         "type":"string",
-                         "value":"cube\/0.json"
-                        }]
-                }, 
-                {
                  "id":3,
                  "properties":[
                         {
