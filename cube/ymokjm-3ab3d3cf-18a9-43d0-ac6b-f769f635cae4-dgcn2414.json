@@ -126,8 +126,26 @@
          "width":9,
          "x":0,
          "y":0
+        }, 
+        {
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7235, 7235, 7235, 0, 0, 0, 0, 0, 7235, 7235, 7235, 7235, 7235, 0, 0, 0, 0, 7235, 7235, 7235, 7235, 7235, 0, 0, 0, 7235, 7235, 7235, 7235, 7235, 7235, 7235, 0, 0, 7235, 7235, 7235, 7235, 7235, 7235, 7235, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "height":9,
+         "id":32,
+         "name":"badge",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"getBadge",
+                 "type":"string",
+                 "value":"Q3lfcjEn8WdYhx4iIvmOrxi7fFMfWSZ8kfY9VyFoF0ISjo6gt3"
+                }],
+         "type":"tilelayer",
+         "visible":true,
+         "width":9,
+         "x":0,
+         "y":0
         }],
- "nextlayerid":32,
+ "nextlayerid":33,
  "nextobjectid":9,
  "orientation":"orthogonal",
  "properties":[
