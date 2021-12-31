@@ -125,7 +125,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"cert-ponycircus"
+                 "value":"ponycircus"
                 }],
          "type":"tilelayer",
          "visible":true,
